@@ -1,0 +1,1333 @@
+version: "2.0"
+
+stories:
+- story: story_1
+  steps:
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_2
+  steps:
+  - intent: intent_2
+  - action: utter_2
+
+- story: story_3
+  steps:
+  - intent: intent_3
+  - action: utter_3
+
+- story: story_4
+  steps:
+  - intent: intent_4
+  - action: utter_4
+
+- story: story_5
+  steps:
+  - intent: intent_5
+  - action: utter_5
+
+- story: story_6
+  steps:
+  - intent: intent_6
+  - action: utter_6
+
+- story: story_7
+  steps:
+  - intent: intent_7
+  - action: utter_7
+
+- story: story_8
+  steps:
+  - intent: intent_8
+  - action: utter_8
+
+- story: story_9
+  steps:
+  - intent: intent_9
+  - action: utter_9
+
+- story: story_10
+  steps:
+  - intent: intent_10
+  - action: utter_10
+
+- story: story_11
+  steps:
+  - intent: intent_11
+  - action: utter_11
+
+- story: story_12
+  steps:
+  - intent: intent_12
+  - action: utter_12
+
+- story: story_13
+  steps:
+  - intent: intent_13
+  - action: utter_13
+
+- story: story_14
+  steps:
+  - intent: intent_14
+  - action: utter_14
+
+- story: story_15
+  steps:
+  - intent: intent_15
+  - action: utter_15
+
+- story: story_16
+  steps:
+  - intent: intent_16
+  - action: utter_16
+
+- story: story_17
+  steps:
+  - intent: intent_17
+  - action: utter_17
+
+- story: story_18
+  steps:
+  - intent: intent_18
+  - action: utter_18
+
+- story: story_19
+  steps:
+  - intent: intent_19
+  - action: utter_19
+
+- story: story_20
+  steps:
+  - intent: intent_20
+  - action: utter_20
+
+- story: story_21
+  steps:
+  - intent: intent_21
+  - action: utter_21
+
+- story: story_22
+  steps:
+  - intent: intent_22
+  - action: utter_22
+
+- story: story_23
+  steps:
+  - intent: intent_23
+  - action: utter_23
+
+- story: story_24
+  steps:
+  - intent: intent_24
+  - action: utter_24
+
+- story: story_25
+  steps:
+  - intent: intent_25
+  - action: utter_25
+
+- story: story_26
+  steps:
+  - intent: intent_26
+  - action: utter_26
+
+- story: story_27
+  steps:
+  - intent: intent_27
+  - action: utter_27
+
+- story: story_28
+  steps:
+  - intent: intent_28
+  - action: utter_28
+
+- story: story_29
+  steps:
+  - intent: intent_29
+  - action: utter_29
+
+- story: story_30
+  steps:
+  - intent: intent_30
+  - action: utter_30
+
+- story: story_31
+  steps:
+  - intent: intent_31
+  - action: utter_31
+
+- story: story_32
+  steps:
+  - intent: intent_32
+  - action: utter_32
+
+- story: story_33
+  steps:
+  - intent: intent_33
+  - action: utter_33
+
+- story: story_34
+  steps:
+  - intent: intent_34
+  - action: utter_34
+
+- story: story_35
+  steps:
+  - intent: intent_35
+  - action: utter_35
+
+- story: story_36
+  steps:
+  - intent: intent_36
+  - action: utter_36
+
+- story: story_37
+  steps:
+  - intent: intent_37
+  - action: utter_37
+
+- story: story_38
+  steps:
+  - intent: intent_38
+  - action: utter_38
+
+- story: story_39
+  steps:
+  - intent: intent_39
+  - action: utter_39
+
+- story: story_40
+  steps:
+  - intent: intent_40
+  - action: utter_40
+
+- story: story_41
+  steps:
+  - intent: intent_41
+  - action: utter_41
+
+- story: story_42
+  steps:
+  - intent: intent_42
+  - action: utter_42
+
+- story: story_43
+  steps:
+  - intent: intent_43
+  - action: utter_43
+
+- story: story_44
+  steps:
+  - intent: intent_44
+  - action: utter_44
+
+- story: story_45
+  steps:
+  - intent: intent_45
+  - action: utter_45
+
+- story: story_46
+  steps:
+  - intent: intent_46
+  - action: utter_46
+
+- story: story_47
+  steps:
+  - intent: intent_47
+  - action: utter_47
+
+- story: story_48
+  steps:
+  - intent: intent_48
+  - action: utter_48
+
+- story: story_49
+  steps:
+  - intent: intent_49
+  - action: utter_49
+
+- story: story_50
+  steps:
+  - intent: intent_50
+  - action: utter_50
+
+- story: story_51
+  steps:
+  - intent: intent_51
+  - action: utter_51
+
+- story: story_52
+  steps:
+  - intent: intent_52
+  - action: utter_52
+
+- story: story_53
+  steps:
+  - intent: intent_53
+  - action: utter_53
+
+- story: story_54
+  steps:
+  - intent: intent_54
+  - action: utter_54
+
+- story: story_55
+  steps:
+  - intent: intent_55
+  - action: utter_55
+
+- story: story_56
+  steps:
+  - intent: intent_56
+  - action: utter_56
+
+- story: story_57
+  steps:
+  - intent: intent_57
+  - action: utter_57
+
+- story: story_58
+  steps:
+  - intent: intent_58
+  - action: utter_58
+
+- story: story_59
+  steps:
+  - intent: intent_59
+  - action: utter_59
+
+- story: story_60
+  steps:
+  - intent: intent_60
+  - action: utter_60
+
+- story: story_61
+  steps:
+  - intent: intent_61
+  - action: utter_61
+
+- story: story_62
+  steps:
+  - intent: intent_62
+  - action: utter_62
+
+- story: story_63
+  steps:
+  - intent: intent_63
+  - action: utter_63
+
+- story: story_64
+  steps:
+  - intent: intent_64
+  - action: utter_64
+
+- story: story_65
+  steps:
+  - intent: intent_65
+  - action: utter_65
+
+- story: story_66
+  steps:
+  - intent: intent_66
+  - action: utter_66
+
+- story: story_67
+  steps:
+  - intent: intent_67
+  - action: utter_67
+
+- story: story_68
+  steps:
+  - intent: intent_68
+  - action: utter_68
+
+- story: story_69
+  steps:
+  - intent: intent_69
+  - action: utter_69
+
+- story: story_70
+  steps:
+  - intent: intent_70
+  - action: utter_70
+
+- story: story_71
+  steps:
+  - intent: intent_71
+  - action: utter_71
+
+- story: story_72
+  steps:
+  - intent: intent_72
+  - action: utter_72
+
+- story: story_73
+  steps:
+  - intent: intent_73
+  - action: utter_73
+
+- story: story_74
+  steps:
+  - intent: intent_74
+  - action: utter_74
+
+- story: story_75
+  steps:
+  - intent: intent_75
+  - action: utter_75
+
+- story: story_76
+  steps:
+  - intent: intent_76
+  - action: utter_76
+
+- story: story_77
+  steps:
+  - intent: intent_77
+  - action: utter_77
+
+- story: story_78
+  steps:
+  - intent: intent_78
+  - action: utter_78
+
+- story: story_79
+  steps:
+  - intent: intent_79
+  - action: utter_79
+
+- story: story_80
+  steps:
+  - intent: intent_80
+  - action: utter_80
+
+- story: story_81
+  steps:
+  - intent: intent_81
+  - action: utter_81
+
+- story: story_82
+  steps:
+  - intent: intent_82
+  - action: utter_82
+
+- story: story_83
+  steps:
+  - intent: intent_83
+  - action: utter_83
+
+- story: story_84
+  steps:
+  - intent: intent_84
+  - action: utter_84
+
+- story: story_85
+  steps:
+  - intent: intent_85
+  - action: utter_85
+
+- story: story_86
+  steps:
+  - intent: intent_86
+  - action: utter_86
+
+- story: story_87
+  steps:
+  - intent: intent_87
+  - action: utter_87
+
+- story: story_88
+  steps:
+  - intent: intent_88
+  - action: utter_88
+
+- story: story_89
+  steps:
+  - intent: intent_89
+  - action: utter_89
+
+- story: story_90
+  steps:
+  - intent: intent_90
+  - action: utter_90
+
+- story: story_91
+  steps:
+  - intent: intent_91
+  - action: utter_91
+
+- story: story_92
+  steps:
+  - intent: intent_92
+  - action: utter_92
+
+- story: story_93
+  steps:
+  - intent: intent_93
+  - action: utter_93
+
+- story: story_94
+  steps:
+  - intent: intent_94
+  - action: utter_94
+
+- story: story_95
+  steps:
+  - intent: intent_95
+  - action: utter_95
+
+- story: story_96
+  steps:
+  - intent: intent_96
+  - action: utter_96
+
+- story: story_97
+  steps:
+  - intent: intent_97
+  - action: utter_97
+
+- story: story_98
+  steps:
+  - intent: intent_98
+  - action: utter_98
+
+- story: story_99
+  steps:
+  - intent: intent_99
+  - action: utter_99
+
+- story: story_100
+  steps:
+  - intent: intent_100
+  - action: utter_100
+
+- story: story_101
+  steps:
+  - intent: intent_101
+  - action: utter_101
+
+- story: story_102
+  steps:
+  - intent: intent_102
+  - action: utter_102
+
+- story: story_103
+  steps:
+  - intent: intent_103
+  - action: utter_103
+
+- story: story_104
+  steps:
+  - intent: intent_104
+  - action: utter_104
+
+- story: story_105
+  steps:
+  - intent: intent_105
+  - action: utter_105
+
+- story: story_106
+  steps:
+  - intent: intent_106
+  - action: utter_106
+
+- story: story_107
+  steps:
+  - intent: intent_107
+  - action: utter_107
+
+- story: story_108
+  steps:
+  - intent: intent_108
+  - action: utter_108
+
+- story: story_109
+  steps:
+  - intent: intent_109
+  - action: utter_109
+
+- story: story_110
+  steps:
+  - intent: intent_110
+  - action: utter_110
+
+- story: story_111
+  steps:
+  - intent: intent_111
+  - action: utter_111
+
+- story: story_112
+  steps:
+  - intent: intent_112
+  - action: utter_112
+
+- story: story_113
+  steps:
+  - intent: intent_113
+  - action: utter_113
+
+- story: story_114
+  steps:
+  - intent: intent_114
+  - action: utter_114
+
+- story: story_115
+  steps:
+  - intent: intent_115
+  - action: utter_115
+
+- story: story_116
+  steps:
+  - intent: intent_116
+  - action: utter_116
+
+- story: story_117
+  steps:
+  - intent: intent_117
+  - action: utter_117
+
+- story: story_118
+  steps:
+  - intent: intent_118
+  - action: utter_118
+
+- story: story_119
+  steps:
+  - intent: intent_119
+  - action: utter_119
+
+- story: story_120
+  steps:
+  - intent: intent_120
+  - action: utter_120
+
+- story: story_121
+  steps:
+  - intent: intent_121
+  - action: utter_121
+
+- story: story_122
+  steps:
+  - intent: intent_122
+  - action: utter_122
+
+- story: story_123
+  steps:
+  - intent: intent_123
+  - action: utter_123
+
+- story: story_124
+  steps:
+  - intent: intent_124
+  - action: utter_124
+
+- story: story_125
+  steps:
+  - intent: intent_125
+  - action: utter_125
+
+- story: story_126
+  steps:
+  - intent: intent_126
+  - action: utter_126
+
+- story: story_127
+  steps:
+  - intent: intent_127
+  - action: utter_127
+
+- story: story_128
+  steps:
+  - intent: intent_128
+  - action: utter_128
+
+- story: story_129
+  steps:
+  - intent: intent_129
+  - action: utter_129
+
+- story: story_130
+  steps:
+  - intent: intent_130
+  - action: utter_130
+
+- story: story_131
+  steps:
+  - intent: intent_131
+  - action: utter_131
+
+- story: story_132
+  steps:
+  - intent: intent_132
+  - action: utter_132
+
+- story: story_133
+  steps:
+  - intent: intent_133
+  - action: utter_133
+
+- story: story_134
+  steps:
+  - intent: intent_134
+  - action: utter_134
+
+- story: story_135
+  steps:
+  - intent: intent_135
+  - action: utter_135
+
+- story: story_136
+  steps:
+  - intent: intent_136
+  - action: utter_136
+
+- story: story_137
+  steps:
+  - intent: intent_137
+  - action: utter_137
+
+- story: story_138
+  steps:
+  - intent: intent_138
+  - action: utter_138
+
+- story: story_139
+  steps:
+  - intent: intent_139
+  - action: utter_139
+
+- story: story_140
+  steps:
+  - intent: intent_140
+  - action: utter_140
+
+- story: story_141
+  steps:
+  - intent: intent_141
+  - action: utter_141
+
+- story: story_142
+  steps:
+  - intent: intent_142
+  - action: utter_142
+
+- story: story_143
+  steps:
+  - intent: intent_143
+  - action: utter_143
+
+- story: story_144
+  steps:
+  - intent: intent_144
+  - action: utter_144
+
+- story: story_145
+  steps:
+  - intent: intent_145
+  - action: utter_145
+
+- story: story_146
+  steps:
+  - intent: intent_146
+  - action: utter_146
+
+- story: story_147
+  steps:
+  - intent: intent_147
+  - action: utter_147
+
+- story: story_148
+  steps:
+  - intent: intent_148
+  - action: utter_148
+
+- story: story_149
+  steps:
+  - intent: intent_149
+  - action: utter_149
+
+- story: story_150
+  steps:
+  - intent: intent_150
+  - action: utter_150
+
+- story: story_151
+  steps:
+  - intent: intent_151
+  - action: utter_151
+
+- story: story_152
+  steps:
+  - intent: intent_152
+  - action: utter_152
+
+- story: story_153
+  steps:
+  - intent: intent_153
+  - action: utter_153
+
+- story: story_154
+  steps:
+  - intent: intent_154
+  - action: utter_154
+
+- story: story_155
+  steps:
+  - intent: intent_155
+  - action: utter_155
+
+- story: story_156
+  steps:
+  - intent: intent_156
+  - action: utter_156
+
+- story: story_157
+  steps:
+  - intent: intent_157
+  - action: utter_157
+
+- story: story_158
+  steps:
+  - intent: intent_158
+  - action: utter_158
+
+- story: story_159
+  steps:
+  - intent: intent_159
+  - action: utter_159
+
+- story: story_160
+  steps:
+  - intent: intent_160
+  - action: utter_160
+
+- story: story_161
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_8
+  - action: utter_8
+  - intent: intent_4
+  - action: utter_4
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_162
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_4
+  - action: utter_4
+  - intent: intent_5
+  - action: utter_5
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_163
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_6
+  - action: utter_6
+  - intent: intent_7
+  - action: utter_7
+
+- story: story_164
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_160
+  - action: utter_160
+
+- story: story_165
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_8
+  - action: utter_8
+  - intent: intent_4
+  - action: utter_4
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_166
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_8
+  - action: utter_8
+  - intent: intent_9
+  - action: utter_9
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_167
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_20
+  - action: utter_20
+  - intent: intent_21
+  - action: utter_21
+
+- story: story_168
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_22
+  - action: utter_22
+  - intent: intent_24
+  - action: utter_24
+  
+- story: story_169
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_30
+  - action: utter_30
+  - intent: intent_32
+  - action: utter_32
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_170
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_37
+  - action: utter_37
+
+- story: story_171
+  steps:
+  - intent: intent_40
+  - action: utter_40
+  - intent: intent_7
+  - action: utter_7
+
+- story: story_172
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_124
+  - action: utter_124
+  - intent: intent_123
+  - action: utter_123
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_173
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_125
+  - action: utter_125
+  - intent: intent_123
+  - action: utter_123
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_174
+  steps:
+  - intent: intent_128
+  - action: utter_128
+  - intent: intent_129
+  - action: utter_129
+  - intent: intent_130
+  - action: utter_130
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_175
+  steps:
+  - intent: intent_22
+  - action: utter_22
+  - intent: intent_131
+  - action: utter_131
+  - intent: intent_132
+  - action: utter_132
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_176
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_39
+  - action: utter_39
+  - intent: intent_42
+  - action: utter_42
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_177
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_62
+  - action: utter_62
+  - intent: intent_64
+  - action: utter_64
+  - intent: intent_66
+  - action: utter_66
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_178
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_62
+  - action: utter_62
+  - intent: intent_68
+  - action: utter_68
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_179
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_70
+  - action: utter_70
+  - intent: intent_67
+  - action: utter_67
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_180
+  steps:
+  - intent: intent_12
+  - action: utter_12
+  - intent: intent_10
+  - action: utter_10
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_181
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_11
+  - action: utter_11
+  - intent: intent_10
+  - action: utter_10
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_182
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_35
+  - action: utter_35
+  - intent: intent_42
+  - action: utter_42
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_183
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_43
+  - action: utter_43
+  - intent: intent_40
+  - action: utter_40
+  - intent: intent_38
+  - action: utter_38
+
+- story: story_184
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_50
+  - action: utter_50
+  - intent: intent_51
+  - action: utter_51
+  - intent: intent_49
+  - action: utter_49
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_185
+  steps:
+  - intent: intent_56
+  - action: utter_56
+  - intent: intent_57
+  - action: utter_57
+  - intent: intent_54
+  - action: utter_54
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_186
+  steps:
+  - intent: intent_52
+  - action: utter_52
+  - intent: intent_49
+  - action: utter_49
+  - intent: intent_58
+  - action: utter_58
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_187
+  steps:
+  - intent: intent_58
+  - action: utter_58
+  - intent: intent_60
+  - action: utter_60
+  - intent: intent_65
+  - action: utter_65
+  - intent: intent_1
+  - action: utter_1
+
+- story: story_188
+  steps:
+  - intent: intent_73
+  - action: utter_73
+  - intent: intent_70
+  - action: utter_70
+  - intent: intent_84
+  - action: utter_84
+  - intent: intent_86
+  - action: utter_86
+  
+- story: story_189
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_89
+  - action: utter_89
+  - intent: intent_91
+  - action: utter_91
+  - intent: intent_92
+  - action: utter_92
+    
+- story: story_190
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_157
+  - action: utter_157
+  - intent: intent_4
+  - action: utter_4
+  - intent: intent_6
+  - action: utter_6
+      
+- story: story_191
+  steps:
+  - intent: intent_152
+  - action: utter_152
+  - intent: intent_151
+  - action: utter_151
+  - intent: intent_1
+  - action: utter_1
+    
+- story: story_192
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_154
+  - action: utter_154
+  - intent: intent_42
+  - action: utter_42
+  - intent: intent_1
+  - action: utter_1
+      
+- story: story_193
+  steps:
+  - intent: intent_123
+  - action: utter_123
+  - intent: intent_131
+  - action: utter_131
+  - intent: intent_160
+  - action: utter_160
+    
+- story: story_194
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_111
+  - action: utter_111
+  - intent: intent_113
+  - action: utter_113
+  - intent: intent_116
+  - action: utter_116
+      
+- story: story_195
+  steps:
+  - intent: intent_117
+  - action: utter_117
+  - intent: intent_118
+  - action: utter_118
+  - intent: intent_119
+  - action: utter_119
+  - intent: intent_1
+  - action: utter_1
+      
+- story: story_196
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_124
+  - action: utter_124
+  - intent: intent_123
+  - action: utter_123
+    
+- story: story_197
+  steps:
+  - intent: intent_22
+  - action: utter_22
+  - intent: intent_126
+  - action: utter_126
+  - intent: intent_23
+  - action: utter_23
+  - intent: intent_1
+  - action: utter_1
+      
+- story: story_198
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_22
+  - action: utter_22
+  - intent: intent_141
+  - action: utter_141
+  - intent: intent_143
+  - action: utter_143
+      
+- story: story_199
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_144
+  - action: utter_144
+  - intent: intent_150
+  - action: utter_150
+  - intent: intent_149
+  - action: utter_149
+      
+- story: story_200
+  steps:
+  - intent: intent_155
+  - action: utter_155
+  - intent: intent_106
+  - action: utter_106
+  - intent: intent_109
+  - action: utter_109
+      
+- story: story_201
+  steps:
+  - intent: intent_109
+  - action: utter_109
+  - intent: intent_140
+  - action: utter_140
+  - intent: intent_143
+  - action: utter_143
+        
+- story: story_202
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_106
+  - action: utter_106
+  - intent: intent_115
+  - action: utter_115
+  - intent: intent_1
+  - action: utter_1
+      
+- story: story_203
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_110
+  - action: utter_110
+  - intent: intent_112
+  - action: utter_112
+  - intent: intent_1
+  - action: utter_1
+      
+- story: story_204
+  steps:
+  - intent: intent_157
+  - action: utter_157
+  - intent: intent_156
+  - action: utter_156
+  - intent: intent_160
+  - action: utter_160
+  - intent: intent_1
+  - action: utter_1
+      
+- story: story_205
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_148
+  - action: utter_148
+  - intent: intent_149
+  - action: utter_149
+  - intent: intent_146
+  - action: utter_146
+        
+- story: story_206
+  steps:
+  - intent: intent_37
+  - action: utter_37
+  - intent: intent_36
+  - action: utter_36
+  - intent: intent_42
+  - action: utter_42
+      
+- story: story_207
+  steps:
+  - intent: intent_80
+  - action: utter_80
+  - intent: intent_81
+  - action: utter_81
+  - intent: intent_82
+  - action: utter_82
+      
+- story: story_208
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_87
+  - action: utter_87
+  - intent: intent_90
+  - action: utter_90
+  - intent: intent_88
+  - action: utter_88
+        
+- story: story_209
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_93
+  - action: utter_93
+  - intent: intent_97
+  - action: utter_97
+  - intent: intent_12
+  - action: utter_12
+        
+- story: story_210
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_12
+  - action: utter_12
+  - intent: intent_17
+  - action: utter_17
+  - intent: intent_16
+  - action: utter_16
+
+- story: story_211
+  steps:
+  - intent: intent_2
+  - action: utter_2
+  - intent: intent_8
+  - action: utter_8
+  - intent: intent_6
+  - action: utter_6
+  - intent: intent_1
+  - action: utter_1
