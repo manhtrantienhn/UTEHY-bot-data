@@ -1,7 +1,7 @@
 version: "2.0"
 
 nlu:
-- intent: intent_1
+- intent: intent_1 - thanks
   examples: |
     - em cám ơn ad nhiều ạ
     - yêu add quá đii
@@ -190,7 +190,7 @@ nlu:
     - à em biết rồi em cảm ơn ạ
     - em xin cảm ơn!
 
-- intent: intent_2
+- intent: intent_2 - greet
   examples: |
     - em xin chào [trường đại học sư phạm kỹ thuật hưng yên]{"entity":"organization"} a
     - hello ad
@@ -449,7 +449,7 @@ nlu:
     - alo ạ
     - alo ad ơi!!
 
-- intent: intent_3
+- intent: intent_3 - sorry
   examples: |
     - em xin lỗi đã làm phiền [nhà trường]{"entity":"organization"} nhiều lần ạ
     - e xin lỗi vì đã làm phiền ad nhiều ạ
@@ -461,7 +461,7 @@ nlu:
     - em xin lỗi nhưng mong thầy cô giải đáp ạ
     - xin lỗi nhưng mình cần hỏi thêm với ạ
 
-- intent: intent_4
+- intent: intent_4 - ask_registration_online
   examples: |
     - có thể gửi cho e đg link để e đăng kí online đc ko ạ
     - vângg ad cho e xin link đăng ký online với ạ
@@ -535,7 +535,7 @@ nlu:
     - dạ hôm nay e mới đăng kí trực tuyến bên [trường]{"entity":"organization"} r và đang mong tư vấn thêm ạ
     - e đăng kí trực tuyến thì [trường]{"entity":"organization"} có liên hệ lại k ạ
 
-- intent: intent_5
+- intent: intent_5 - additional_docs_after_applying_online
   examples: |
     - nếu em đăng kí xét tuyển online thì có cần phải làm hồ sơ khong ạ
     - vừa e đăng ký online r ạ , và có cần phải nộp hồ sơ k ạ
@@ -554,7 +554,7 @@ nlu:
     - trúng tuyển online rồi thì cần làm hồ sơ gửi về [trường]{"entity":"organization"} không
     - đăng ký online và đủ điều kiện thì cần làm hồ sơ gửi về [trường]{"entity":"organization"} không
 
-- intent: intent_6
+- intent: intent_6 - ask_time_for_results
   examples: |
     - ad ơi cho em hỏiem xét học bạ qua link onlinecủa [trường]{"entity":"organization"} rồi mà chưa thấy phản hồi của [nhà trường]{"entity":"organization"} thì có sao không ạ?
     - dạ cho e hỏi chút ạh , hnay e đki thì pjo biết kết quả ạh
@@ -679,7 +679,7 @@ nlu:
     - em vừa đăng ký [nhà trường]{"entity":"organization"} đã nhận được đăng ký của em chưa ạ
     - em đăng kí online chuyển lại lâu rồi mà chưa nhận được giấy báo nhập học lại ạ
 
-- intent: intent_7
+- intent: intent_7 - admission_paper
   examples: |
     - [nhà trường]{"entity":"organization"} ơi cho em hỏi là bao giờ có giấy nhập học ạ nếu có thì gửi về nhà hay về đâu ạ
     - dạ , thế này thì giờ mk chỉ chờ giấy báo nhập học gửi về nhà thui ạh cô
@@ -709,7 +709,7 @@ nlu:
     - nếu em trúng tuyển thì nhận thông báo ở đâu ạ
     - em trúng tuyển hay không đều được thông báo chứ ạ
 
-- intent: intent_8
+- intent: intent_8 - admission_application_time
   examples: |
     - [trường]{"entity":"organization"} mình hạn cuối xét tuyển học bạ là khi nào ạ 
     - hôm nay e mới đăng ký xét tuyển thì có được không ạ
@@ -773,7 +773,7 @@ nlu:
     - [nhà trường]{"entity":"organization"} cho em hỏi hình thức nộp hồ sơ bằng học bạ bắt đầu từ thời gian nào ạ
     - trg bao h nhận hồ sơ tuyển sinh nhỉ ạ
 
-- intent: intent_9
+- intent: intent_9 - requirements_registration_docs
   examples: |
     - hồ sơ đăng kí vào trường cần những cái gì ạ
     - bây giờ em muốn nộp hồ sơ xét học bạ vào [trường]{"entity":"organization"} thì cần phải làm những gì ạ ??
@@ -801,7 +801,7 @@ nlu:
     - cho em hỏi hồ sơ cần những gì vậy?
     - dạ thầy cô cho e hỏi muốn nộp hồ sơ xét tuyển vào [trường]{"entity":"organization"} thì cần những gì ạ
 
-- intent: intent_10
+- intent: intent_10 - school_start_time
   examples: |
     - [trường]{"entity":"organization"} cho e hỏi bao giờ bắt đầu học kì mới ạ
     - bao h thi em bắt đầu phải học ạ
@@ -871,7 +871,7 @@ nlu:
     - lên nhập học xong thứ mấy học hả thầy cô
     - [12 / 8]{"entity":"time"} lên thì [13]{"entity":"time"} học luôn ạ
 
-- intent: intent_11
+- intent: intent_11 - admission_procedure_time
   examples: |
     - ad cho e hỏi nhạp học buổi chiều có được k ạ
     - v [trường]{"entity":"organization"} mh có đợt nhập học là từ bgio ạ
@@ -905,7 +905,7 @@ nlu:
     - cho em xin thời gian nhập học ạ
     - ad cho em xin thời gian nhập học với
 
-- intent: intent_12
+- intent: intent_12 - admission_on_11_9
   examples: |
     - đến ngày nhập học là em cứ thế lên nhập học thôi phải không ạ
     - thì là bạn ý cũng lên [trường]{"entity":"organization"} hôm [11 / 9]{"entity":"time"} đúng k ạ
@@ -939,7 +939,7 @@ nlu:
     - bắt đầu nhập học lúc mấy giờ ạ
     - thời gian bắt đầu nhập học là mấy giờ ạ
 
-- intent: intent_13
+- intent: intent_13 - admission_after_11_9
   examples: |
     - ad ơi em nhập học sau ngày [11 / 9]{"entity":"time"} muộn vài ngày có sao không ạ
     - cho em hỏi [11 / 9]{"entity":"time"} em bận thì sau [11 / 9]{"entity":"time"} em có thể nhập học đc k ạ
@@ -966,7 +966,7 @@ nlu:
     - nhập học sau ngày [11 / 9]{"entity":"time"} thì sao ạ
     - do bận nên em nhập học muộn được không
 
-- intent: intent_14
+- intent: intent_14 - do_not_understand
   examples: |
     - e lại k hiểu rõ lắm
     - em k hiểu
@@ -980,7 +980,7 @@ nlu:
     - chưa hiểu ạ
     - khó hiểu quá ad
 
-- intent: intent_15
+- intent: intent_15 - admission_records
   examples: |
     - những mục trên cần xin dấu những mục nào vậy ạ
     - còn cái mục 8
@@ -1143,7 +1143,7 @@ nlu:
     - giấy tờ cần mang theo có gồm bằng tốt nghiệp thpt k ạ
     - kp mang học bạ hay giấy tốt nghiệp ạ
 
-- intent: intent_16
+- intent: intent_16 - additional_required
   examples: |
     - ngoài những thứ cần chuẩn bị ở sau mặt giấy báo nhập học ra thì có cần mang thêm j k ạ
     - hôm nhập học có cần chuẩn bị gì thêm không ạ
@@ -1158,7 +1158,7 @@ nlu:
     - có cần làm thêm thủ tục gì không
     - ngoài những điều trong giấy báo thì cần thêm gì ạ
 
-- intent: intent_17
+- intent: intent_17 - docs_notarize
   examples: |
     - học bạ photo có cần công chứng k ạ
     - thế không cần học bạ photo công chứng ạ
@@ -1202,7 +1202,7 @@ nlu:
     - phần ghi chú cuối cùng 2 ,3 ,4 ,5bản photo có cần công chứng không ạ
     - và cần công chứng k ạ
 
-- intent: intent_18
+- intent: intent_18 - docs_photocopy
   examples: |
     - ad cho e hỏi nhữg thứ nào cần photo ạ
     - photo học bạ còn cần photo j nữa ko ạ
@@ -1219,7 +1219,7 @@ nlu:
     - cho e hỏi là nhập học các giấy tờ như cccd và giấy khai sinh photto có cần công chứng ko ạ
     - ad ơi cho e hỏi trong hồ sơ gửi về [trường]{"entity":"organization"} có học bạ photo công chứng có thể thay bằng bản sao kết quả học tập [trường]{"entity":"organization"} thpt từ 2017-2020 có dấu của [nhà trường]{"entity":"organization"} đc không ạ
 
-- intent: intent_19
+- intent: intent_19 - area_field_in_registration_docs
   examples: |
     - ad cho e hỏi e viết nhầm khu vực 2nt thành [khu vực 2]{"entity":"location"} có sao không ạk
     - em quên k viết khu vực 2nt thì có cần đăng ký lại k ạ
@@ -1245,7 +1245,7 @@ nlu:
     - kv thì ghi gì vậy ad
     - em điền sai khu vực có sao không ạ
 
-- intent: intent_20
+- intent: intent_20 - registry_from_other_regions
   examples: |
     - e ở [miền nam]{"entity":"location"} em muốn hỏi e phải xét ntn?
     - em ở [nước ngoài]{"entity":"location"} thì xét tuyển ra sao ạ
@@ -1260,7 +1260,7 @@ nlu:
     - em ở [miên trung]{"entity":"location"} được đăng ký xét tuyển không ạ
     - ở [miền nam]{"entity":"location"} vẫn được xét tuyển đúng không ad
 
-- intent: intent_21
+- intent: intent_21 - ask_fees
   examples: |
     - phí hồ sơ thế nào ah
     - và tiền phí nguyện vọng ntn ạ
@@ -1291,7 +1291,7 @@ nlu:
     - ad cho em hỏi chút về học phí hôm nhập học ạ
     - học phí hôm nhập học như nào ạ
 
-- intent: intent_22
+- intent: intent_22 - ask_school_info
   examples: |
     - bạn có thể cung cấp cho tôi thêm thông tin về [trường]{"entity":"organization"} này không?
     - ad có thể cung cấp thông tin về [trường]{"entity":"organization"} này không?
@@ -1336,7 +1336,7 @@ nlu:
     - ad cho em xin thêm thông tin về [trường]{"entity":"organization"} được không ạ
     - cho em xin thông tin các cơ sở ạ
 
-- intent: intent_23
+- intent: intent_23 - number_occupations_school_train
   examples: |
     - bên [trường]{"entity":"organization"} mình đào tạo tất cả bao nhiêu ngành nghề vậy ạ
     - [trường]{"entity":"organization"} mình đào tạo những ngành nghề nào ạ
@@ -1361,7 +1361,7 @@ nlu:
     - mỗi cơ sở đào tạo nhiều ngành ạ
     - [trường]{"entity":"organization"} cho em xin thông tin về các ngành đào tạo ã
 
-- intent: intent_24
+- intent: intent_24 - ask_can_choose_training_facility
   examples: |
     - vâng , có đc tự chọn cơ sở để học ko ạ
     - được chọn cơ sở học không ạ?
@@ -1379,7 +1379,7 @@ nlu:
     - em có thể tự chọn cơ sở để học đúng không
     - em muốn học cơ sở nào thì chọn cơ sở đó ạ
 
-- intent: intent_25
+- intent: intent_25 - ask_change_wish
   examples: |
     - ad ơi [11]{"entity":"time"} này nộp hồ sơ thì em đổi nguyện vọng đc k ad
     - sửa lại nguyện vọng ấy ạ
@@ -1422,7 +1422,7 @@ nlu:
     - nhưng bây giờ em muốn đổi xang nguyện vọng 2 được không ạ ?
     - nhưng bg muốn thay đổi nguyện vọng làm cách nào tra cứu lại phiếu m đã đăng ký ạ
 
-- intent: intent_26
+- intent: intent_26 - registry_many_wish
   examples: |
     - ad ơi , em đăng ký xét onl nhiều nguyện vọng thì có chọn được không ạ
     - trong phiếu đăng ký chỉ có 2 nguyện vọng e muốn thêm nguyện vọng được k
@@ -1439,7 +1439,7 @@ nlu:
     - nếu như em đỗ nguyện vọng thì không cần xét học bạ nữa phải k ạ
     - e dc 16 có nguyện vọng
 
-- intent: intent_27
+- intent: intent_27 - registry_with_school_profile
   examples: |
     - xét tuyển bằng học bạ vào [nhà trường]{"entity":"organization"} thì cần làm những gi ạ
     - e muốn xét học bạ vào trg thì làm gì ạ
@@ -1513,7 +1513,7 @@ nlu:
     - cho em hỏi là mai em lên [trường]{"entity":"organization"} nộp xét duyệt học bạ cần mang những cái gì lên ạ
     - em muốn đăng ký xét học bạ vào [trường]{"entity":"organization"} đh spkt hưng yên thì cần những gì
 
-- intent: intent_28
+- intent: intent_28 - apply_directly
   examples: |
     - anh ơi em muốn xét học bạ thì nộp hồ sơ ở đâu ạ
     - e thắc mắc lấy học bạ để gửi vào đâu ý ạ
@@ -1529,7 +1529,7 @@ nlu:
     - nộp hồ sơ ở cơ sở nào
     - địa chỉ nộp hồ sơ ở đâu ạ
 
-- intent: intent_29
+- intent: intent_29 - score_combine_shool_profile
   examples: |
     - tổ hợp xét học bạ chỉ cần 18 điểm trở lên là đỗ phải k ạ
     - điều kiện là các môn theo tổ hợp xét tuyển đạt từ 6 0 trở lên 
@@ -1556,7 +1556,7 @@ nlu:
     - tổng điểm xét tuyển tính ra sao ạ
     - đăng ký trực tuyến là lấy cả năm hay kì 1 or 2 ạ
 
-- intent: intent_30
+- intent: intent_30 - registry_school_profile_now
   examples: |
     - bây giờ xe xét theo học bạ có được không ạ
     - cho em hỏi bao giờ [trường]{"entity":"organization"} có đợt xét tuyển học bạ nữa ạ
@@ -1636,7 +1636,7 @@ nlu:
     - add cho e hỏi [trường]{"entity":"organization"} mình có xét học bạ khôg ạ
     - [trường]{"entity":"organization"} cho e hỏi là bây h có còn nhận xét hồ sơ học bạ nữa không ạ
 
-- intent: intent_31
+- intent: intent_31 - registration_form
   examples: |
     - cho e xin mẫu đăng kí học bạ vs ạ
     - gửi cho em cái mẫu đăng kí xét tuyển học bạ được không ạ
@@ -1683,7 +1683,7 @@ nlu:
     - ở đâu ạthông báo đó xem em tìm không thấy ạ
     - e vào link ad gửimà kh lần thấy link tờ phiếu để đăng ký xét học bạ ạ
 
-- intent: intent_32
+- intent: intent_32 - apply_shool_profile_with_graduation_exam_score
   examples: |
     - cho e hỏi là nộp học bạ thì học cùng điểm thi thpt quốc gia ạ
     - xét học bạ với xét điểm thi có khác gì nhau không ạ
@@ -1696,7 +1696,7 @@ nlu:
     - xét điểm qua hình thức thi thpt thì có tốt hơn không ạ
     - xét điểm học bạ có được học cùng điểm thpt quốc gia không
 
-- intent: intent_33
+- intent: intent_33 - ask_majors_apply_school_profile
   examples: |
     - ad cho em hỏi [trường]{"entity":"organization"} mình những ngành nào xét tuyển học bạ vậy ạ
     - [ngành ô tô]{"entity":"majors"} có xét tuyển học bạ không ạ
@@ -1710,7 +1710,7 @@ nlu:
     - em muốn xét tuyển học bạ vào [ngành công nghệ thông tin]{"entity":"majors"} có được không ạ
     - ngành nào cũng xét tuyển học bạ chứ ạ
 
-- intent: intent_34
+- intent: intent_34 - apply_shool_profile_and_graduation_exam_score
   examples: |
     - ad ơi , em đã đăng kí xét tuyển đại học bằng học bạ ở [trường]{"entity":"organization"} mình với hình thức online , bây giờ , em có thể tiếp tục dùng điểm thi thpt của mình để xét các nguyện vọng ở những [trường]{"entity":"organization"} khác được không ạ ?
     - ad ơi cho e hỏi nếu e đăng kí xét bằng học bạ rồi thì có thể xét bằng điểm thi đại học không
@@ -1731,7 +1731,7 @@ nlu:
     - nếu như em k đỗ ở hình thức xét học bạ thì em có thể xét tiếp bằng hình thức thi k ạ
     - em muốn đăng kí cả 2 hình thức xét học bạ và xét điểm thi thpt vào [trường]{"entity":"organization"} mình
 
-- intent: intent_35
+- intent: intent_35 - ask_study_and_work
   examples: |
     - đào tạo hệ vừa học vừa làm ạ
     - e muốn vừa học vừa làm
@@ -1747,7 +1747,7 @@ nlu:
     - đại học vừa học vừa làm là sao ạ
     - vhvl có bằng đại học chính quy k
 
-- intent: intent_36
+- intent: intent_36 - ask_late_admission
   examples: |
     - thế các bạn nhập học sau thì sao ạ
     - ô thế học trước thì không sợ các bạn sau học k kịp ạ
@@ -1771,7 +1771,7 @@ nlu:
     - giờ có lớp nào học luôn không ạ
     - có lớp nào khai giảng trước không ạ
 
-- intent: intent_37
+- intent: intent_37 - pre_registration_priority
   examples: |
     - đăng ký online thì được xét trước hay sao ạ
     - có phải đk online thì đc chuyển trước không vật ạ
@@ -1784,7 +1784,7 @@ nlu:
     - những bạn đăng ký trước , [trường]{"entity":"organization"} sẽ xét trước ạ
     - đăng ký online có được xét trước không
 
-- intent: intent_38
+- intent: intent_38 - scholarship
   examples: |
     - các lớp thường có nhận được học bổng ko ạ
     - dạ nói rõ hơn về học bổng được không ạ
@@ -1800,7 +1800,7 @@ nlu:
     - ad nói rõ về học bổng được không
     - [trường]{"entity":"organization"} cho em xin thông tin về học bổng ạ
 
-- intent: intent_39
+- intent: intent_39 - ask_bridging_learning
   examples: |
     - [công nghệ di động]{"entity":"majors"} là j ạ
     - [công nghệ di động]{"entity":"majors"} là gì ạ
@@ -1816,7 +1816,7 @@ nlu:
     - ad tư vấn cho em ngành [công nghệ di động]{"entity":"majors"} là ngành gì
     - [công nghệ di động]{"entity":"majors"}
 
-- intent: intent_40
+- intent: intent_40 - where_admission_paper_send
   examples: |
     - bao h thì có giấy báo nhập học gửi về ạ
     - em bị mất giấy nhập học có cấp lại được không ạ
@@ -1955,7 +1955,7 @@ nlu:
     - anh ơi sao e chưa giấp nhập học
     - tầm bao h thì có giấy nhập học ạ
 
-- intent: intent_41
+- intent: intent_41 - change_registry_options
   examples: |
     - e có giấy báo nhập học của học bạ nhưng e ko học theo hình thức ý a ạ lên e muốn xét tuyển theo điểm thì họ có gửi lần nữa ko ạ
     - cho e hỏi sau khi biết điểm thi của mình rồi e đăng kí [trường]{"entity":"organization"} mình là nguyện vọng 2 mà trước kia e đã đăng kí cả 2 hình thức xét tuyển là lấy điểm thi thpt quốc gia và học bạ   e đã đỗ với hình thức học bạ rồi thì sau này e có được lấy điểm thi thpt quốc gia để vào [trường]{"entity":"organization"} mình ko ạ?
@@ -1967,7 +1967,7 @@ nlu:
     - e nộp học bạ xét tuyển có giấy báo nhập nhập ngày [11 / 9]{"entity":"time"} nhưng bây giờ em muốn đợi kết quả xét tuyển thpt rồi nhập học vào [trường]{"entity":"organization"} theo điểm thi thpt được không ạ?
     - [trường]{"entity":"organization"} cho em hỏi là em nhỡ đăng kí online của trg và h trg gửi cho em giấy nhập hok ,nhg em muốn xét bằng điểm thi thpt , thì hiện h em o nhập hok đc [11 / 9]{"entity":"time"} mà em đợi đến khi xét đm thpt hoàn thành 27 / 9 , nếu em đỗ thì em có thể nhập hok vào 5 / 10 đc o ạ
 
-- intent: intent_42
+- intent: intent_42 - ask_study_saturday_and_sunday
   examples: |
     - [trường]{"entity":"organization"} có học ca tối ko ạ
     - [trường]{"entity":"organization"} có học ca tối không ạ
@@ -1988,7 +1988,7 @@ nlu:
     - thầy ơie nộp hồ sơ đknếu có lớp buổi tối hoặc cuối tuần thì e học đc k ạ?
     - tại em đang học cả làm co học liên thông buổi tối hay cuối tuần được không ạ cơ
 
-- intent: intent_43
+- intent: intent_43 - registry_graduation_exam_score
   examples: |
     - em muốn đăng kí dựa vào điểm thi thì đi đăng kí từ thời gian nào
     - em phải đến tận nơi đăng kí bằng điểm thi thpt không
@@ -2014,7 +2014,7 @@ nlu:
     - em xet diem thi a
     - còn e muốn xét điểm thì như thế nào ạ ,
 
-- intent: intent_44
+- intent: intent_44 - change_majors
   examples: |
     - e muốn đổi nghành học được ko ạ
     - h em muốn đổi ngành đc ko ạ
@@ -2119,7 +2119,7 @@ nlu:
     - nhưng em đã đỗ [điện điện tử]{"entity":"majors"} thì có sao k thầy tại em muốn học [cntt]{"entity":"majors"}
     - em muốn học ngành khác so với giấy gọi nhập học thì phải ghi sao ạ
 
-- intent: intent_45
+- intent: intent_45 - admission_options
   examples: |
     - bây giờ em muốn đăng kí học trên [trường]{"entity":"organization"} thì đăng kí online hay lên [trường]{"entity":"organization"} đăng kí luôn ạ
     - phải lên [trường]{"entity":"organization"} ạ hay là đăng kí online đc hả thầy cô
@@ -2169,7 +2169,7 @@ nlu:
     - gửi trực tiếp thì như nào ạ
     - em muốn gửi trực tiếp
 
-- intent: intent_46
+- intent: intent_46 - mechatronics_apply_school_profile
   examples: |
     - [trường]{"entity":"organization"} có xét học bạ ngành [cơ điện tử]{"entity":"majors"} k vậy?
     - [trường]{"entity":"organization"} cho e hỏi ngành [cơ điện tử]{"entity":"majors"} còn xét học bạ không ạ
@@ -2183,7 +2183,7 @@ nlu:
     - em xét học bạ [ngành cơ điện tử]{"entity":"majors"} được không
     - [ngành cơ điện tử]{"entity":"majors"} vẫn được xét học đúng không ạ
 
-- intent: intent_47
+- intent: intent_47 - refrigeration_targets
   examples: |
     - [ngành điện lạnh]{"entity":"majors"} và [điều hòa không khí]{"entity":"majors"} còn bao nhiêu chỉ tiêu ạ
     - chỉ tiêu [ngành điện lanh]{"entity":"majors"} là bao nhiêu ạ
@@ -2199,7 +2199,7 @@ nlu:
     - chỉ tiêu [ngành điều hoà]{"entity":"majors"}
     - chỉ tiêu [điện lạnh , điều hoà]{"entity":"majors"}
 
-- intent: intent_48
+- intent: intent_48 - english_language_majors
   examples: |
     - cho e hỏi là [ngành ngôn ngữ anh]{"entity":"majors"} chia làm 3 chuyên ngành như vậy thì e ko biết mỗi chuyên ngành học về khía cạnh nào của môn tiếng anh 
     - [ngôn ngữ anh]{"entity":"majors"} ạ
@@ -2216,7 +2216,7 @@ nlu:
     - [trường]{"entity":"organization"} cho em xin thông tin [ngành ngôn ngữ anh]{"entity":"majors"} với
     - ad cho e hỏi [ngành ngôn ngữ anh]{"entity":"majors"} của [trường]{"entity":"organization"} mình có chuyên ngành biên dịch - dịch thuật không ạ?
 
-- intent: intent_49
+- intent: intent_49 - english_language_majors_job
   examples: |
     - em được biết chuyên [ngành ngôn ngữ anh]{"entity":"majors"} có cơ hội việc làm rất phong phú và lý tưởngthầy cô cho em hỏi cơ hội việc làm của ngành ra sao , sinh viên của khoa chủ yếu làm bên bộ phận nào sau khi ra [trường]{"entity":"organization"} ạ? em cảm ơn rất nhiều ạ! ❤
     - ad ơi , cho e hỏi [ngành ngôn ngữ anh]{"entity":"majors"} của [trường]{"entity":"organization"} khi ra thường thì việc làm là gì ạ?
@@ -2229,7 +2229,7 @@ nlu:
     - em sẽ được làm gì sau khi ra [trường]{"entity":"organization"} [ngành ngôn ngữ anh]{"entity":"majors"} ạ
     - [ngành ngôn ngữ anh]{"entity":"majors"} của [trường]{"entity":"organization"} sau khi ra [trường]{"entity":"organization"} sẽ làm những gì ạ
 
-- intent: intent_50
+- intent: intent_50 - where_english_language_majors_training
   examples: |
     - học [ngôn ngữ anh]{"entity":"majors"} là học ở [cơ sở mỹ hào]{"entity":"location"} hay [khoái châu]{"entity":"location"} ak
     - [ngành ngôn ngữ anh]{"entity":"majors"} đào tạo ở cơ sở nào ạ
@@ -2255,7 +2255,7 @@ nlu:
     - em muốn học [ngành ngôn ngữ anh]{"entity":"majors"} và cần được tư vấn ạ
     - ad tư vấn về [ngành ngôn ngữ anh]{"entity":"majors"} giúp em với
 
-- intent: intent_51
+- intent: intent_51 - english_entrance_certificate
   examples: |
     - ad cho e hỏi là khi vào [trường]{"entity":"organization"} mà học [ngành ngôn ngữ anh]{"entity":"majors"} thì có phải kiểm tra một bài test tiếng anh ko ạk
     - em học ngôn ngữ anh thì cần test một bài tiếng anh không ạ
@@ -2278,7 +2278,7 @@ nlu:
     - cho em hỏi thi nhập học có phải thi đầu vào không
     - khi nhập học yêu cầu đầu vào như thế nào
 
-- intent: intent_52
+- intent: intent_52 - ask_school_offer_english_training
   examples: |
     - vào [trường]{"entity":"organization"} có đào tạo lái tiếng anh ko ạ
     - là [nhà trường]{"entity":"organization"} có đào tạo cả về tiếng anh không ạ
@@ -2299,7 +2299,7 @@ nlu:
     - ad cho em hỏi [trường]{"entity":"organization"} mình có chứng chỉ tiếng anh gì không ạ
     - [trường]{"entity":"organization"} có dạy chứng chỉ tiếng anh nào không ạ
 
-- intent: intent_53
+- intent: intent_53 - 2nd_degree_english
   examples: |
     - nếu e học [công nghệ may]{"entity":"majors"} nhưng e muốn học thêm văn bằng 2 tiếng anh thì sau khi nhập học mới đăng kí thêm ạhay là như thế nào ạ
     - em muốn học văn bằng 2 tiếng anh
@@ -2312,7 +2312,7 @@ nlu:
     - văn bằng 2 tiếng anh của [trường]{"entity":"organization"} như nào ạ
     - khoá đào tạo văn bằng 2 tiếng anh của [trường]{"entity":"organization"} gồm những gì ạ
     - học văn bằng 2 tiếng anh được dạy gì ạ
-    - thầycô cho e hỏi : văn bằng 2 tiếng anh của [trường]{"entity":"organization"} mình học trong bao lâu , thời gian học là tập trung các ngày trong tuần hay được học vào thứ bảy , chủ nhật ạem cảm ơn ạ
+    - thầy cô cho e hỏi : văn bằng 2 tiếng anh của [trường]{"entity":"organization"} mình học trong bao lâu , thời gian học là tập trung các ngày trong tuần hay được học vào thứ bảy , chủ nhật ạem cảm ơn ạ
     - cho em hỏi văn bằng 2 tiếng anh
     - văn bằng 2 tiếng anh là sao ạ
     - thời gian học văn bằng 2 tiếng anh là bao lâu ạ
@@ -2324,7 +2324,7 @@ nlu:
     - cho em hỏi chút về văn bằng 2 tiếng anh ạ
     - [nhà trường]{"entity":"organization"} cho em xin thông tin về văn bằng 2 tiếng anh của [trường]{"entity":"organization"} được không ạ
 
-- intent: intent_54
+- intent: intent_54 - sewing_technology_pedagogy
   examples: |
     - [trường]{"entity":"organization"} cho em hỏi là muốn học hệ sư phạm của ngành cn may thì cần những gì ạ
     - em muốn học ngành sư phạm [công nghệ may]{"entity":"majors"}
@@ -2336,9 +2336,9 @@ nlu:
     - em muốn học [sư phạm may]{"entity":"majors"}
     - [trường]{"entity":"organization"} có đào tạo [sư phạm may]{"entity":"majors"} không ạ
 
-- intent: intent_55
+- intent: intent_55 - fashion_designer_majors
   examples: |
-    - e thic [ngành thiết kế thời trang]{"entity":"majors"} , ad có thể ns rõ hơn cho e về ngành này được k ạ
+    - e thích [ngành thiết kế thời trang]{"entity":"majors"} , ad có thể ns rõ hơn cho e về ngành này được k ạ
     - em chào thầy cô , em muốn đăng ký học [khoa may]{"entity":"majors"} nhưng em k học [công nghệ may]{"entity":"majors"} em học [thiết kế thời trang]{"entity":"majors"} thôi đc k ạ
     - em muốn học [ngành thiết kế thời trang]{"entity":"majors"}
     - ad tư vấn cho em về [ngành thiết kế thời trang]{"entity":"majors"} được không
@@ -2350,7 +2350,7 @@ nlu:
     - [trường]{"entity":"organization"} cho em thêm thông tin về [ngành thiết kế thời trang]{"entity":"majors"} được không
     - [ngành thiết kế thời trang]{"entity":"majors"} dạy những gì ạ
 
-- intent: intent_56
+- intent: intent_56 - sewing_technology
   examples: |
     - add ơi cho em hỏi [trường]{"entity":"organization"} mình có [khoa kĩ thuật may]{"entity":"majors"} k ạ?
     - vậy em nhập học [công nghệ may]{"entity":"majors"} có được không ạ
@@ -2373,7 +2373,7 @@ nlu:
     - e muốn học bên [ngành công nghiệp may và thời trang]{"entity":"majors"} e đăng kí thế nào ạ
     - thầy cho e hỏi là ngành [công nghệ may]{"entity":"majors"} học mấy năm ạ
 
-- intent: intent_57
+- intent: intent_57 - score_combine_sewing_technology
   examples: |
     - cho e hỏi [ngành công nghệ may]{"entity":"majors"} không có mã tổ hợp xét tuyển ạ
     - cho em xin mã tổ hợp xét tuyển [ngành công nghệ may]{"entity":"majors"} ạ
@@ -2388,7 +2388,7 @@ nlu:
     - [trường]{"entity":"organization"} cho em hỏi không biết vẽ có học được [công nghệ may]{"entity":"majors"} không ạ
     - [ngành công nghệ may]{"entity":"majors"} không có tổ hợp xét tuyển ạ
 
-- intent: intent_58
+- intent: intent_58 - job_ratio_uppon_graduation
   examples: |
     - tỷ lệ có việc làm của sinh viên trong [trường]{"entity":"organization"} là bao nhiêu ạ
     - sinh viên sau khi ra [trường]{"entity":"organization"} có việc làm không ạ
@@ -2404,7 +2404,7 @@ nlu:
     - tỷ lệ có việc làm của sinh viên spkt hưng yên
     - tỷ lệ thất nghiệp của sinh viên
 
-- intent: intent_59
+- intent: intent_59 - sewing_technology_apply_school_profile
   examples: |
     - em học hết lớp 12 rồi em muốn nộp hồ sơ ở bên [kỹ thuật may dệt]{"entity":"majors"} [trường đhspkt hưng yên]{"entity":"organization"} phương thức tuyển sinh như thế nào ạ
     - add ơi [sư phạm kĩ thuật hưng yên]{"entity":"organization"} có xét học bạ [ngành công nghệ may]{"entity":"majors"} không ạ
@@ -2420,7 +2420,7 @@ nlu:
     - [trường đại học sư phạm kĩ thuật hưng yên]{"entity":"organization"} có xét học bạ [ngành công nghệ may]{"entity":"majors"} không ạ
     - [trường]{"entity":"organization"} vẫn nhận học bạ [ngành công nghệ may]{"entity":"majors"} đúng không ạ
 
-- intent: intent_60
+- intent: intent_60 - fitness_and_english_subjects
   examples: |
     - môn thể dục và tiếng anh
     - vào [trường]{"entity":"organization"} có phải học thể dục và tiếng anh không ạ
@@ -2433,7 +2433,7 @@ nlu:
     - vào [trường]{"entity":"organization"} có phải học thể dục không
     - [trường]{"entity":"organization"} có dạy thể dục không
 
-- intent: intent_61
+- intent: intent_61 - engineering_majors
   examples: |
     - và em muốn tìm hiểu chương trình học các ngành kĩ thuật tại [trường]{"entity":"organization"} thì có thể tìm hiểu ở đâu ạ?
     - về ngành kĩ thuật
@@ -2452,7 +2452,7 @@ nlu:
     - [trường]{"entity":"organization"} dạy những ngành kỹ thuật nào ạ
     - các ngành kỹ thuật của trường
 
-- intent: intent_62
+- intent: intent_62 - information_technology_majors
   examples: |
     - ad cho em hỏi [khoa công nghệ thông tin]{"entity":"majors"} được không ạ ?
     - em muốn học [ngành công nghệ thông tin]{"entity":"majors"}
@@ -2498,7 +2498,7 @@ nlu:
     - ad oi cho em hỏi , em muốn học [nganh cntt]{"entity":"majors"} của trg vậy cơ hội viêc làm có cao không ạ?
     - e định đăng kí [ngành cntt]{"entity":"majors"} của [trường]{"entity":"organization"} mình
 
-- intent: intent_63
+- intent: intent_63 - where_infomation_technology_majors_training
   examples: |
     - [cntt]{"entity":"majors"} thì ở cơ sở nào ạ
     - cho e hỏi [khoa công nghệ thông tin]{"entity":"majors"} cơ sở mấy ạ
@@ -2519,7 +2519,7 @@ nlu:
     - [trường]{"entity":"organization"} đào tạo [công nghệ thông tin]{"entity":"majors"} ở cơ sở nào ạ
     - ad cho em hỏi [cntt]{"entity":"majors"} của [trường]{"entity":"organization"} ở đâu ạ
 
-- intent: intent_64
+- intent: intent_64 - learn_information_technology_majors_master
   examples: |
     - e học thạc sĩ hay kĩ sư [ngàh cntt]{"entity":"majors"} thì mất bn năm ạ , ra trườg tỉ lệ làm vc có cao k ạ
     - em học thạc sĩ [ngành cntt]{"entity":"majors"} ạ
@@ -2533,7 +2533,7 @@ nlu:
     - [trường]{"entity":"organization"} có đào tạo thạc sĩ [ngành công nghệ thông tin]{"entity":"majors"} không
     - em muốn học thạc sĩ [cntt]{"entity":"majors"} ở [trường]{"entity":"organization"} ạ
 
-- intent: intent_65
+- intent: intent_65 - software_testing_majors
   examples: |
     - [công nghệ web]{"entity":"majors"} là j ạ
     - [công nghệ web]{"entity":"majors"} là gì ạ
@@ -2549,7 +2549,7 @@ nlu:
     - ad tư vấn cho em [ngành công nghệ web]{"entity":"majors"} là ngành gì
     - [công nghệ web]{"entity":"majors"}
 
-- intent: intent_66
+- intent: intent_66 - web_technology_majors
   examples: |
     - [kiểm thử phần mềm]{"entity":"majors"} là j ạ
     - [kiểm thử]{"entity":"majors"} là gì ạ
@@ -2564,7 +2564,7 @@ nlu:
     - [trường]{"entity":"organization"} dạy [kiểm thử phần mềm]{"entity":"majors"} là ngành gì ạ
     - ad tư vấn cho em [ngành kiểm thử phần mềm]{"entity":"majors"} là ngành gì
 
-- intent: intent_67
+- intent: intent_67 - when_registry_majors
   examples: |
     - và khi nào đc đăng kí chuyên ngành ạ
     - em vào [trường]{"entity":"organization"} học thì bao giờ được đăng ký chuyên ngành ak
@@ -2577,7 +2577,7 @@ nlu:
     - bao giờ [trường]{"entity":"organization"} cho đăng ký chuyên ngành ạ
     - khi nào em được đăng ký chuyên ngành mình thích ạ
 
-- intent: intent_68
+- intent: intent_68 - graphic_design_majors
   examples: |
     - [thiết kế đồ họa]{"entity":"majors"} ạ
     - dạ cho e hỏi [thiết kế đồ họa]{"entity":"majors"} thì sau này lm những công vc j ạ
@@ -2594,7 +2594,7 @@ nlu:
     - em muốn tìm hiểu về [thiết kế đồ hoạ]{"entity":"majors"} của [trường]{"entity":"organization"} ạ
     - ad tư vấn cho em về [ngành thiết kế đồ hoạ]{"entity":"majors"} được không ạ
 
-- intent: intent_69
+- intent: intent_69 - technology_software_majors
   examples: |
     - e quân tâm đến [ngãnh công nghệ phần mềm]{"entity":"majors"} ạ
     - em muốn học [công nghệ phần mềm]{"entity":"majors"} ạ
@@ -2609,7 +2609,7 @@ nlu:
     - [kỹ thuật phần mềm]{"entity":"majors"} là gì ạ
     - em muốn học [kỹ thuật phần mềm]{"entity":"majors"}
 
-- intent: intent_70
+- intent: intent_70 - girl_favorite_majors
   examples: |
     - các ngành cho con gái làm những ngành nào ạ
     - con gái hay học ngành nào ạ
@@ -2626,7 +2626,7 @@ nlu:
     - [trường]{"entity":"organization"} cho em hỏi con gái hay học những ngành nào ở trường
     - những ngành phù hợp với con gái trong các ngành đào tạo của trường
 
-- intent: intent_71
+- intent: intent_71 - mechanical_majors
   examples: |
     - em muốn học [ngành cơ khí]{"entity":"majors"} ạ
     - e muốn hỏi về thông tin [ngành cơ khí]{"entity":"majors"} của trg mình ạ
@@ -2646,7 +2646,7 @@ nlu:
     - [ngành cơ khí]{"entity":"majors"} có đào tạo tại [cơ sở 2]{"entity":"location"} khôn
     - em quan tâm tới [ngành cơ khí]{"entity":"majors"} của trường
 
-- intent: intent_72
+- intent: intent_72 - pedagory_majors
   examples: |
     - không có chuyên ngành su phạm ạ
     - thầy cô cho em hỏi [trường]{"entity":"organization"} mình hiện có cấp chứng chỉ sư phạm kĩ thuật không ạ
@@ -2662,7 +2662,7 @@ nlu:
     - [ngành sư phạm]{"entity":"majors"} là sao ạ
     - [ngành sư phạm]{"entity":"majors"} của [trường]{"entity":"organization"} đào tạo những gì ạ
 
-- intent: intent_73
+- intent: intent_73 - ask_easy_majors
   examples: |
     - ngành nào hok dễ nhất ạ
     - ngành nào ra [trường]{"entity":"organization"} dễ nhất ạ
@@ -2675,7 +2675,7 @@ nlu:
     - em muốn học ngành nào dễ dễ học ạ
     - [trường]{"entity":"organization"} cho em hỏi , ngành học dễ nhất mà [trường]{"entity":"organization"} đào tạo ạ
 
-- intent: intent_74
+- intent: intent_74 - ask_3rd_facility_training_mechanical
   examples: |
     - e muốn học [cs3]{"entity":"location"} có [ngành cơ khí]{"entity":"majors"} à
     - [cs3]{"entity":"location"} có [ngành cơ khí]{"entity":"majors"} không ad
@@ -2688,7 +2688,7 @@ nlu:
     - cơ sở hải dương có [ngành cơ khí]{"entity":"majors"} không ad
     - em muốn học cơ khí tại cơ sở hải dương
 
-- intent: intent_75
+- intent: intent_75 - car_majors
   examples: |
     - e muốn học [ngành ôtô]{"entity":"majors"} ạ
     - mà [trường]{"entity":"organization"} mình ngành đó có 2 chuyên ngành là [công nghệ kỹ thuật ôtô]{"entity":"majors"} và [cơ điện tử]{"entity":"majors"} ôtô và xe chuyên dụng
@@ -2724,7 +2724,7 @@ nlu:
     - ad cho e hỏi [kĩ thuật oto]{"entity":"majors"} có những ngành nào ạ
     - ad cho em hỏi học [kĩ thuật ô tô]{"entity":"majors"} mất mấy năm ạ
 
-- intent: intent_76
+- intent: intent_76 - car_majors_targets
   examples: |
     - [cn ô tô]{"entity":"majors"} lấy bao nhiêu v chị
     - chỉ tiêu [ngành công nghệ ô tô]{"entity":"majors"} là bao nhiêu ạ
@@ -2736,7 +2736,7 @@ nlu:
     - năm nay [ngành công nghệ ô tô]{"entity":"majors"} lấy bao nhiêu chỉ tiêu
     - [trường]{"entity":"organization"} cho em hỏi năm nay [cn ô tô]{"entity":"majors"} lấy số người là bao nhiêu ạ
 
-- intent: intent_77
+- intent: intent_77 - ask_car_technology_majors_apply_school_profile
   examples: |
     - [ngành công nghệ kĩ thuật ô tô]{"entity":"majors"} có xét học bạ k ạ
     - thế là [ngành công nghệ kĩ thuật ô tô]{"entity":"majors"} có xét học bạ ạ
@@ -2749,7 +2749,7 @@ nlu:
     - [cn ôtô]{"entity":"majors"} vẫn được xét học bạ ạ
     - xét học bạ [ngành công nghệ ô tô]{"entity":"majors"} được không
 
-- intent: intent_78
+- intent: intent_78 - ask_majors_have_chance_work_abroad
   examples: |
     - vậy là tất cả các ngành đều có cơ hội làm việc ở nước ngoài hay chỉ có những ngành nào ạ?
     - những ngành nào có cơ hội làm việc ở nước ngoài ạ
@@ -2762,7 +2762,7 @@ nlu:
     - những ngành có cơ hội làm ở nước ngoài
     - cơ hội làm ở nước ngoài gồm những ngành nào
 
-- intent: intent_79
+- intent: intent_79 - ask_car_and_mechatronics_majors
   examples: |
     - [kĩ thuật ô tô]{"entity":"majors"} và [cơ điện tử]{"entity":"majors"} là thế nào ạ
     - cho em xin thông tin [kĩ thuật ô tô]{"entity":"majors"} và [cơ điện tử]{"entity":"majors"} ạ
@@ -2774,7 +2774,7 @@ nlu:
     - học [kĩ thuật ô tô]{"entity":"majors"} và [cơ điện tử]{"entity":"majors"} sẽ được dạy gì ạ
     - [kỹ thuật ô tô]{"entity":"majors"} và [cơ điện tử]{"entity":"majors"}
 
-- intent: intent_80
+- intent: intent_80 - industrial_electricity_majors
   examples: |
     - vậy [điện công nghiệp]{"entity":"majors"} ạ
     - em muốn học [điện công nghiệp]{"entity":"majors"} thì nó có tên khác không ự
@@ -2791,7 +2791,7 @@ nlu:
     - [điện công nghiệp]{"entity":"majors"} đào tạo ở đâu ạ
     - [điện công nghiệp]{"entity":"majors"} dạy ở cơ sở nào
 
-- intent: intent_81
+- intent: intent_81 - electronic_majors
   examples: |
     - dạ [công nghệ kĩ thuật điện , điện tử]{"entity":"majors"} ạ
     - trong [khoa điện điện tử]{"entity":"majors"} có những ngành gì ạ
@@ -2815,7 +2815,7 @@ nlu:
     - ad cho em biết thêm về [ngành điện điện tử]{"entity":"majors"} đc k ạ
     - với cả cho e hỏi là ngành điện dân dụng trong [trường]{"entity":"organization"} mình thì về ngành nào ạ
 
-- intent: intent_82
+- intent: intent_82 - automation_majors
   examples: |
     - em đang đăng ký [ngành điều khiển và tự động hoá]{"entity":"majors"}
     - cho em hỏi [ngành tự động hóa]{"entity":"majors"} thì học mấy năm ra trường
@@ -2843,7 +2843,7 @@ nlu:
     - [điều khiển và tự động hoá]{"entity":"majors"} dạy ở cơ sở nào
     - [cn kĩ thuật cơ khí]{"entity":"majors"} vs [cn kt tự động hóa]{"entity":"majors"}
 
-- intent: intent_83
+- intent: intent_83 - mechatronics_majors
   examples: |
     - nguyện vọng 2 là [kĩ thuật cơ điện tử]{"entity":"majors"} ạ
     - [ngành cơ điện tử]{"entity":"majors"} em k thấy ghi thì nó gồm những gì ạ
@@ -2863,7 +2863,7 @@ nlu:
     - [cơ điện tử]{"entity":"majors"} đào tạo ở những cơ sở nào ạ
     - e đc 17 25 và e muốn đăng kí vào ngành [cn kỹ thuật cơ điện tử]{"entity":"majors"}
 
-- intent: intent_84
+- intent: intent_84 - accountant_majors
   examples: |
     - thầy cô cho em hỏi nếu học kinh tế thì trg đạo tạo ntn ạ???
     - trước em dki [kế toán]{"entity":"majors"}
@@ -2892,7 +2892,7 @@ nlu:
     - ad ơi , không có chỉ tiêu tuyển sinh [ngành kế toán]{"entity":"majors"}]{"entity":"majors"} ạ
     - mà năm nay [trường]{"entity":"organization"} mình lấy bao nhiêu chỉ tiêu xét học bạ [ngành kế toán]{"entity":"majors"}]{"entity":"majors"} vậy ạ !?
 
-- intent: intent_85
+- intent: intent_85 - 2nd_degree_accountant
   examples: |
     - e chào ad ạcho r hỏi là [trường]{"entity":"organization"} mình có văn bằng 2 môn [kế toán]{"entity":"majors"} không ạ
     - e cần tư vấn tuyển sinh hệ đại học văn bằng hai [kế toán]{"entity":"majors"} ạ
@@ -2907,7 +2907,7 @@ nlu:
     - [trường]{"entity":"organization"} dạy văn bằng 2 [kế toán]{"entity":"majors"} đúng không ạ
     - văn bằng 2 [kế toán]{"entity":"majors"} dạy những gì ạ
 
-- intent: intent_86
+- intent: intent_86 - business_administration_majors
   examples: |
     - em học [qtkd]{"entity":"majors"} ạ
     - em có đki [qtkd]{"entity":"majors"} với [kế toán]{"entity":"majors"}
@@ -2931,7 +2931,7 @@ nlu:
     - [ngành quản trị kinh doanh]{"entity":"majors"}]{"entity":"majors"} đào tạo ở đâu ạ
     - học [ngành quản trị kinh doanh]{"entity":"majors"}]{"entity":"majors"} ở cơ sở nào ạ
 
-- intent: intent_87
+- intent: intent_87 - registry_social_science_score_combine
   examples: |
     - thế là e thi khxh nhưng vẫn có thể xét học bạ để vào trg ạ
     - em thi khxh có được xét học bạ không ạ
@@ -2946,7 +2946,7 @@ nlu:
     - cho e hỏi nếu e đăng kí thi đại học khối a thì khi e xét học bạ vào [trường]{"entity":"organization"} thì có thể dùng khối d k ạ
     - em học khối d có được xét tuyển khối a không ạ
 
-- intent: intent_88
+- intent: intent_88 - ask_college_training
   examples: |
     - cho e hỏi [trường]{"entity":"organization"} có đào tạo hệ cao đẳng kh ạ
     - [trường]{"entity":"organization"} mình có đào tạo cao đẳng , trung cấp không ạ
@@ -2981,7 +2981,7 @@ nlu:
     - năm nay [trường]{"entity":"organization"} có tuyển sinh hệ cao đẳng không
     - không 1 ngành nào ở [trường]{"entity":"organization"} có cao đẳng ạ
 
-- intent: intent_89
+- intent: intent_89 - college_or_university_training
   examples: |
     - [trường]{"entity":"organization"} mình là hệ đại học hay cao đẳng v chị
     - đây là danh sách xét tuyển đại học hay cao đẳng vậy ạ
@@ -3004,7 +3004,7 @@ nlu:
     - còn hệ nào khác hệ đại học không ạ
     - [trường]{"entity":"organization"} cho em hỏi , bên mình chỉ đào đạo hệ đại học thôi đúng không
 
-- intent: intent_90
+- intent: intent_90 - where_student_code
   examples: |
     - em đăng kí theo điểm nhưng có + mã hs đkxt số ghi dưới mã vạch
     - cho em hỏi là cái mã học sinh lấy ở đâu ạ
@@ -3017,7 +3017,7 @@ nlu:
     - cho em hỏi về hsđkxt ạ
     - mã hsđkxt là gì ạ
 
-- intent: intent_91
+- intent: intent_91 - registration_methods
   examples: |
     - em vẫn chưa rõ cách tuyển sinh [năm 2021]{"entity":"time"} của [trường]{"entity":"organization"} mình
     - cho e hỏi hình thức tuyển sinh năm nay ạ
@@ -3106,7 +3106,7 @@ nlu:
     - [nhà trường]{"entity":"organization"} có thể biết rõ hơn về tuyển sinh được hông a 
     - mà chỉ được xét hoic bạ phải k ạ
 
-- intent: intent_92
+- intent: intent_92 - ask_admissions_office_phone_number
   examples: |
     - [trường]{"entity":"organization"} cho tôi xin sđt của khoa tuyển sinh để tôi hỏi và được tư vấn về ngành học 
     - e có thể xin số điện thoại của [trường]{"entity":"organization"} để được tư vấn rõ hơn không ạ?
@@ -3133,7 +3133,7 @@ nlu:
     - sđt tuyển sinh là gì ạ
     - cho em xin sđt tuyển sinh được không ạ
 
-- intent: intent_93
+- intent: intent_93 - conditions_direct_admission
   examples: |
     - điều kiện xét tuyển thẳng là j vậy ạ?
     - điều kiện tuyển thẳng là gì vậy ạ
@@ -3152,7 +3152,7 @@ nlu:
     - những ai được tuyển thẳng
     - có bạn được tuyển thẳng
 
-- intent: intent_94
+- intent: intent_94 - ask_1st_batch_admission_list
   examples: |
     - [trường]{"entity":"organization"} công bố danh sách trúng tuyển đợt 1 chưa ạ
     - [trường]{"entity":"organization"} cho em hỏi là bao giờ thì có danh sách học sinh trúng tuyển thế ạ
@@ -3168,7 +3168,7 @@ nlu:
     - danh sáhc trúng tuyển
     - [trường]{"entity":"organization"} công bố danh sách trúng tuyển đợt 1 ở đâu ạ
 
-- intent: intent_95
+- intent: intent_95 - said_pass_admission
   examples: |
     - trong danh sách thí sinh trúng tuyển đợt 1 có tên e r ạ
     - e có trong danh sách sơ tuyển đợt 1 và ngàh của e là cntt
@@ -3187,7 +3187,7 @@ nlu:
     - em thấy tên em rồi hâhha
     - em đăng kí online lại ngành học và nhận được giấy trúng tuyển qua email r ạ vậy em có nhận được giấy nhập học ngành đó lại ko ạ
 
-- intent: intent_96
+- intent: intent_96 - pass_admission_but_not_receive_notice
   examples: |
     - e có tên trong danh sách đủ đk rồi nhưng sao vẫn chưa nhận được mail giấy báo đủ đk của [trường]{"entity":"organization"} ạ ?
     - ad cho em hỏi là có tên trong danh sách sơ tuyển đủ điều kiện nhưng chưa có thông báo về gmail thì có bị sao không ạ
@@ -3200,7 +3200,7 @@ nlu:
     - em chưa nhận được giấy báo về mặc dù đã có tên trong danh sách trúng tuyển
     - em có tên trong danh sách nhưng chưa nhận được giấy báo nhập học của trường
 
-- intent: intent_97
+- intent: intent_97 - ask_admission_procedure
   examples: |
     - e có giấy báo nhập học r giờ làm gì tiếp theo ạ?
     - em có giấy báo nhập hk rồi
@@ -3236,7 +3236,7 @@ nlu:
     - bản sao học bạ và giấy chứng nhận tốt nghiệp em đi photo bản gốc là được đúng k ạ?
     - vậy có cần gửi bản sao giấy chứng nhận thi với bản sao giấy chứng nhận tốt nghiệp không ạ
 
-- intent: intent_98
+- intent: intent_98 - wrong_infomation
   examples: |
     - e nhận đc giấy nhập học nhưng họ e nó bị thiếu dấu ngã hôm nên đki nhập học v có bị s k ạ
     - em bị sai ngày sinh trong giấy báo có sao k ad
@@ -3247,7 +3247,7 @@ nlu:
     - em bị sai thông tin trong giấy báo
     - em bị sai thông tin trong giấy báo có sao không ạ
 
-- intent: intent_99
+- intent: intent_99 - apply_score_grade_12
   examples: |
     - cho em hỏi xét học bạ lấy điểm trung bình học kì 1 hoặc học kì 2 lớp 12 được không ạ
     - điểm đăng ký xét tuyển học bạ điểm là điểm trung bình môn đúng k ạ
@@ -3310,7 +3310,7 @@ nlu:
     - bây giờ mình đợi đến khi có kết quả tốt nghiệp lớp 12 mới đăng kí xét tuyển thì có sao không ạ
     - điểm tổng kết trong học bạtính mỗi lớp 12 thôi hay cả 3 năm ạbởi vì có chữ tổngem hơi hoang mang
 
-- intent: intent_100
+- intent: intent_100 - apply_score_grade_11
   examples: |
     - [kĩ thuật máy tính]{"entity":"majors"} là j ạ
     - [kĩ thuật máy tính]{"entity":"majors"} là gì ạ
@@ -3328,7 +3328,7 @@ nlu:
     - [ngành kỹ thuật máy tính]{"entity":"majors"}
     - [kỹ thuật máy tính]{"entity":"majors"} là ngành gì ạ
 
-- intent: intent_101
+- intent: intent_101 - receive_notice_when_change_majors
   examples: |
     - chuyển ngành tại [trường]{"entity":"organization"} được nhận giấy nhập học luôn phải không ạ
     - em chuyển ngành có được nhận giấy nhập học luôn không ạ
@@ -3338,7 +3338,7 @@ nlu:
     - [trường]{"entity":"organization"} có cấp giấy nhập học luôn sau khi chuyển ngành không
     - ad cho em hỏi [trường]{"entity":"organization"} có phát giấy nhập học ngay sau khi em chuyển ngành không ạ
 
-- intent: intent_102
+- intent: intent_102 - ask_how_many_enrollments
   examples: |
     - có mấy đợt ạ
     - có mấy đợt và hạn cuối là bây giờ ạ
@@ -3352,7 +3352,7 @@ nlu:
     - hạn cuối tuyển sinh là bao giờ ạ
     - [nhà trường]{"entity":"organization"} có mấy đợt xét tuyển vậy chị
 
-- intent: intent_103
+- intent: intent_103 - 1st_round_admission
   examples: |
     - đợt 1 của [nhà trường]{"entity":"organization"} là từ ngày bao nhiêu đến ngày bao nhiêu ạ
     - ngày xét tuyển đợt 2 của [nhà trường]{"entity":"organization"} là từ ngày bao nhiêu đến ngày bao nhiêu vậy ad
@@ -3425,7 +3425,7 @@ nlu:
     - bây giờ hết hạn ah
     - giờ hết hạn đăng kí online rồi à cô
 
-- intent: intent_104
+- intent: intent_104 - 2nd_round_admission
   examples: |
     - sau khi em đăng kí đợt 2 thì bao giờ có kết quả đợt 2 ạ
     - tại e đăng kí 2 đợt nên e k biết là của đợt nào ạ
@@ -3461,7 +3461,7 @@ nlu:
     - cho em hỏi bao giờ mới có kết quả trúng tuyển đợt 2 vậy ạ
     - ad ơi đăng kí đợt 2 bao giờ có kết quả ạ
 
-- intent: intent_105
+- intent: intent_105 - 3rd_round_admission
   examples: |
     - có đợt 3 k
     - có đợt ba không
@@ -3480,7 +3480,7 @@ nlu:
     - hạn cuối đợt ba là khi nào
     - hạn cuối đợt 3 là khi nào ạ
 
-- intent: intent_106
+- intent: intent_106 - ask_dormitory
   examples: |
     - mai em muốn thăm qua ktx 1 lần đc k ạ
     - em muốn xin ít thông tin về ktx của [trường]{"entity":"organization"} ạ
@@ -3507,7 +3507,7 @@ nlu:
     - ở bao người 1 phòng ạ
     - kí túc bn người 1 phòng ạ
 
-- intent: intent_107
+- intent: intent_107 - ask_pass_admission_rate
   examples: |
     - tỉ lệ vào trg có cao k ạ
     - tỉ lệ e đc nhập học là bn ạ
@@ -3520,7 +3520,7 @@ nlu:
     - [năm ngoái]{"entity":"time"} tỷ lệ đỗ vào [trường]{"entity":"organization"} có cao không ạ
     - [năm ngoái]{"entity":"time"} tỷ lệ đỗ vào [trường]{"entity":"organization"} như nào ạ
 
-- intent: intent_108
+- intent: intent_108 - ask_supporting_policies
   examples: |
     - hộ nghèo thuộc diện miễn giảm học phí của [trường]{"entity":"organization"} ko ạ
     - những đối tượng học sinh thuộc chính sách xã hội [nhà trường]{"entity":"organization"} có miễn giảm học phí ko ạ
@@ -3534,7 +3534,7 @@ nlu:
     - chính sách hỗ trợ đối với người bị bênh như nào ạ
     - bố em thuộc diện chính sách được hưởng trợ cấp hàng tháng thì em có được hỗ trợ học phí không ạ
 
-- intent: intent_109
+- intent: intent_109 - ask_clubs
   examples: |
     - ở [trường]{"entity":"organization"} có lớp dạy học hát k ạ
     - ở [trường]{"entity":"organization"} có các hoạt động văn nghệ gì không ạ
@@ -3547,7 +3547,7 @@ nlu:
     - các câu lạc bộ ở trường
     - [trường]{"entity":"organization"} tổ chức các hoạt động gì không
 
-- intent: intent_110
+- intent: intent_110 - ask_standard_admission_score
   examples: |
     - điểm chuẩn đại học của trường vào hôm nào vậy ạ ?
     - điểm chuẩn công bố hôm nào vậy ad
@@ -3572,7 +3572,7 @@ nlu:
     - ad ơi cho em hỏi vs ạ xét điểm thi thpt thì bao nhiêu điểm là đỗ
     - trg mình xét học bạ lấy bao nhiêuh điểm vậy ạ
 
-- intent: intent_111
+- intent: intent_111 - ask_floor_admission_score
   examples: |
     - [trường]{"entity":"organization"} mình chưa có điểm sàn ạ
     - cho e hỏi [trường]{"entity":"organization"} bao h có điểm sàn ạ
@@ -3591,7 +3591,7 @@ nlu:
     - điểm sàn của [trường]{"entity":"organization"} mình là bao nhiêu ạ
     - ad cho em xin điểm sàn của [trường]{"entity":"organization"} được không ạ
 
-- intent: intent_112
+- intent: intent_112 - choose_resgitration_options_when_low_score
   examples: |
     - liệu tầm 17đ mà xét điểm thì có đỗ được không ạ?
     - vần bây giờ em được tầm 13 hoặc 14 điểm có được học điện điện tử k ạ
@@ -3608,7 +3608,7 @@ nlu:
     - em xét nhưng bị thiếu điểm thì trượt ạ
     - điểm thi thpt của em hơi thấp thì nên làm gì ạ
 
-- intent: intent_113
+- intent: intent_113 - ask_area_points
   examples: |
     - có được cộng điểm vùng để em đạt chỉ tiêu thang điểm k ạ
     - điểm vùng có được cộng vào điểm thi không ad
@@ -3619,7 +3619,7 @@ nlu:
     - điểm thi có được cộng thêm điểm vùng ko ad
     - có được cộng điểm cùng vào điểm xét tuyển khôn
 
-- intent: intent_114
+- intent: intent_114 - with_this_score_should_choose_majors
   examples: |
     - vâng ạ 3 môn của em xét học bạ trên 20 điểm có đỗ được [điện điện tử]{"entity":"majors"} vs [công nghệ ô tô]{"entity":"majors"} k ạ hay phải tuỳ ạ
     - em xét học bạ ba môn trên 20đ có đỗ được [điện điện tử]{"entity":"majors"} không ạ
@@ -3634,7 +3634,7 @@ nlu:
     - 25đ a00 em học được ngành nào ạ
     - 25đ a00 thì em nên vào ngành nào ạ
 
-- intent: intent_115
+- intent: intent_115 - ask_talent_class
   examples: |
     - khoa tài năng của [trường]{"entity":"organization"} lâyd bao nhiêu điểm ạ
     - ad ơi em nghe nói nếu không vào được lớp tài năng bằng điểm thi thpt quốc gia thì có thể vào bằng cách thi một bài thi khảo sát trong [trường]{"entity":"organization"} đúng không ạ?
@@ -3671,7 +3671,7 @@ nlu:
     - học ở lớp tài năng thì khác gì ở lớp thường ạ
     - lớp học tài năng là sao ạ
 
-- intent: intent_116
+- intent: intent_116 - ask_school_targets
   examples: |
     - [trường]{"entity":"organization"} dự tính lấy bao nhiêu học sinh ạ
     - và năm trước là bao nhiêu
@@ -3688,7 +3688,7 @@ nlu:
     - chỉ tiêu năm [2020]{"entity":"time"} của trường
     - [trường đại học sư phạm kỹ thuật hưng yên]{"entity":"organization"} xét tuyển [2020]{"entity":"time"} như thế nào ạ
 
-- intent: intent_117
+- intent: intent_117 - ask_study_credits
   examples: |
     - và 1 tín chỉ là bao nhiêu tiền ạ
     - 1 tín chỉ năm nay là bao nhiêu ạ
@@ -3699,7 +3699,7 @@ nlu:
     - 1 tín chỉ ở [trường]{"entity":"organization"} mất bao nhiêu tiền ạ
     - hiện tại 1 tín chỉ là bao nhiêu ạ
 
-- intent: intent_118
+- intent: intent_118 - ask_tuition
   examples: |
     - và học phí là bao nhiêu ạ
     - học phí bao nhiêu tiền 1 tháng v ạ??
@@ -3728,7 +3728,7 @@ nlu:
     - học phí của [trường]{"entity":"organization"} thế nào ạ
     - học phí như nào ạ
 
-- intent: intent_119
+- intent: intent_119 - how_many_months_1_year_study
   examples: |
     - mà 1 năm học bao nhiêu tháng ạ
     - mỗi năm [trường]{"entity":"organization"} học bao nhiêu tháng ạ
@@ -3742,7 +3742,7 @@ nlu:
     - một năm bọn em phải học bao nhiêu tháng
     - một năm học bao nhiêu tuần
 
-- intent: intent_120
+- intent: intent_120 - ask_curriculum_vitae
   examples: |
     - cái hồ sơ yếu lí lịch đó 1 bộ 2 bản đấy thôi đúng k ạ
     - vâng ạhồ sơ lý lịch hssv viên mấy tờ ạ [trường]{"entity":"organization"} ơi
@@ -3786,7 +3786,7 @@ nlu:
     - nếu mình không muốn đăng kí trên trang web thì có thể mua hồ sơ ở đâu đc ạ?
     - add cho e cái mẫu viết hồ sơ lý lịch học sinh sinh viên
 
-- intent: intent_121
+- intent: intent_121 - ask_Doan_book
   examples: |
     - còn cái đoàn là sổ đoàn ạ
     - nếu nộp sổ đoàn có cần công chứng ko ạ
@@ -3809,7 +3809,7 @@ nlu:
     - em bị mất số đoàn có ảnh hưởng tới thủ tục nhập học không ạ
     - em mất sổ đoàn thì phải làm sao ạ
 
-- intent: intent_122
+- intent: intent_122 - ask_link_list_admission
   examples: |
     - ad có thể gửi em link tìm danh sách trúng tuyển k
     - ad có cái danh sách chúng tuyển k ạ
@@ -3827,7 +3827,7 @@ nlu:
     - k biết em có đc trúng tuyển k ạ
     - em chào thầy cônếu em trúng tuyển mà chưa có giấy báo nhập học thì xem bằng cách nào để em biết được là có trúng tuyển hay không trúng tuyển ạ , em vẫn chưa nhận được giấy báo nhập học ạ     
 
-- intent: intent_123
+- intent: intent_123 - ask_school_code
   examples: |
     - kí hiệu [trường]{"entity":"organization"} mình là gì nhỉ
     - kí hiệu [trường]{"entity":"organization"} mình là gì ạ
@@ -3846,7 +3846,7 @@ nlu:
     - cho e xin mã [trường]{"entity":"organization"} mình với ạ
     - ad cho em xin mã trường
 
-- intent: intent_124
+- intent: intent_124 - move_to_spkt_hung_yen
   examples: |
     - em đang học ở [trường đại học công nghiệp dệt may hà nội]{"entity":"organization"} mà giờ em muốn chuyển về [trường]{"entity":"organization"} mình có được k ạ
     - hiện tại em muốn làm đơn xin chuyển [trường]{"entity":"organization"} từ [trường]{"entity":"organization"} khác vào [trường]{"entity":"organization"} mình thì có thể nộp hay xin ý kiến thầy / cô tại đâu ạ?
@@ -3860,7 +3860,7 @@ nlu:
     - em muốn chuyển từ [trường]{"entity":"organization"} đại học khác về [trường]{"entity":"organization"} mình học
     - ad cho em hỏi , em đang học ở [trường]{"entity":"organization"} đại học khác , giờ em muốn xin chuyển về [trường]{"entity":"organization"} mình thì làm như thế nào ạ
 
-- intent: intent_125
+- intent: intent_125 - vocational_school_want_register
   examples: |
     - em đang học cấp 3 tại [trường]{"entity":"organization"} nghề muốn nộp học bạ học tại [trường]{"entity":"organization"} mình có được không ạ
     - em học dân lập muốn nộp hồ sơ học bạ [trường]{"entity":"organization"} mình có được không ạ
@@ -3871,7 +3871,7 @@ nlu:
     - c3 [trường]{"entity":"organization"} nghệ có được học ở đây không
     - c3 [trường]{"entity":"organization"} nghề có được đăng ký xét tuyển không ad
 
-- intent: intent_126
+- intent: intent_126 - ask_4th_facility
   examples: |
     - cho e hỏi [trường]{"entity":"organization"} mình với ở [nam định]{"entity":"location"} cùng 1 [trường]{"entity":"organization"} không ạ
     - [trường spkt nam định]{"entity":"organization"} giống [trường]{"entity":"organization"} mình ạ
@@ -3884,7 +3884,7 @@ nlu:
     - [trường]{"entity":"organization"} có cơ sở nào ở [hải phòng]{"entity":"location"} không
     - [trường]{"entity":"organization"} có cơ sở thứ 4 không
 
-- intent: intent_127
+- intent: intent_127 - ask_affiliate_program
   examples: |
     - cho em hỏi tẹo [khoa cntt]{"entity":"majors"} trường mình có liên kết học chuyển tiếp 2 năm đh nhật không ạ
     - tại [trường]{"entity":"organization"} mình là học 4 năm xong có cơ hội sang hàn làm không ạ
@@ -3908,7 +3908,7 @@ nlu:
     - ngành đào tạo quốc tế là ngành nào ạ
     - [trường]{"entity":"organization"} có ngành đào tạo quốc tế đúng không ạ
 
-- intent: intent_128
+- intent: intent_128 - add_documents_later
   examples: |
     - giấy chứng nhận tốt nghiệp tạm thời em lấy rồi nhưng chưa photo chỉ có bản chính
     - giờ muốn xét tuyển học bạ vào [trường]{"entity":"organization"} thì em đang thiếu giấy chứng nhận tốt nghiệp tạm thời thì giấy đấy em có thể bổ sung sau khi thi xong đúng không ạ
@@ -3940,7 +3940,7 @@ nlu:
     - cho em hoi em bổ sung hoc bạ sau đươc không ạ
     - cho e hỏi chút ạ[trường]{"entity":"organization"} mình xét tuyển theo học bạ nhưng giờ học bạ e chưa được phát thì bổ sung sau được không ạ e cảm ơn ạ
 
-- intent: intent_129
+- intent: intent_129 - ask_health_insurance
   examples: |
     - bản photocopy cmnd / cccd và thẻ bảo hiểm y tế đang sử dụng , bản khai nhân
     - bản photo cccd và thẻ bảo hiểm y tế có cần công chứng k ạ
@@ -3954,7 +3954,7 @@ nlu:
     - em không photo bảo hiểm y tế được không ad
     - bảo hiểm y tế phải photo không ad
 
-- intent: intent_130
+- intent: intent_130 - ask_demographic_docs
   examples: |
     - cho em hỏi trong giấy nhập học có ghi bản khai khác với giấy thay đổi nhân khẩu nơi thường trú 2 cái này cần làm ntn và cbi ntn ạ
     - cái giấy khai nhân khẩu nó có quan trọng ko ạ
@@ -3989,7 +3989,7 @@ nlu:
     - e photto công chứng sổ hộ khẩu r có cần giấy khai nhân khẩu nữa k ạ
     - vâng e cảm ơn ạmà còn cái giấy bản khai nhân khẩu với giấy thay đổi nhân khẩu là như thế nào ạ
 
-- intent: intent_131
+- intent: intent_131 - ask_2nd_facility
   examples: |
     - [mỹ hào]{"entity":"location"} đc k ạ
     - thì là học cơ sở 2 ở [mĩ hào]{"entity":"location"} ạ
@@ -4020,7 +4020,7 @@ nlu:
     - các ngành học em có thể đăng ký để học tại [cs2]{"entity":"location"} của [trường]{"entity":"organization"} ạ
     - [cs 2]{"entity":"location"} ạ
 
-- intent: intent_132
+- intent: intent_132 - ask_haiduong_facility
   examples: |
     - các ngành đều học ở [hải dương]{"entity":"location"} ạ ???
     - em nộp [cơ sở hải dương]{"entity":"location"}]{"entity":"location"} được ko an
@@ -4039,7 +4039,7 @@ nlu:
     - [cơ sở 3]{"entity":"location"} đào tạo những ngành nghề nào ạ
     - [cơ sở hải dương]{"entity":"location"}]{"entity":"location"} dạy những gì ạ
 
-- intent: intent_133
+- intent: intent_133 - ask_3rd_facility_training_car_majors
   examples: |
     - [trường]{"entity":"organization"} mình bên [cơ sở 3]{"entity":"location"} [hải dương]{"entity":"location"} có công nghệ o to không ạ
     - [cơ sở 3]{"entity":"location"} có đào tạo [công nghệ ô tô]{"entity":"majors"} không ạ
@@ -4053,7 +4053,7 @@ nlu:
     - [ngành ô tô]{"entity":"majors"} có đào tạo tại [cơ sở hải dương]{"entity":"location"}]{"entity":"location"} không ad
     - [công nghệ ô tô]{"entity":"majors"} ở [hải dương]{"entity":"location"} ạ
 
-- intent: intent_134
+- intent: intent_134 - ask_3rd_facility_training_english_language_majors
   examples: |
     - e hỏi [cơ sở hải dương]{"entity":"location"}]{"entity":"location"} có lớp [ngôn ngữ anh]{"entity":"majors"} k ah
     - [cơ sở hải dương]{"entity":"location"}]{"entity":"location"} có đào tạo [ngôn ngữ anh]{"entity":"majors"} không ạ
@@ -4066,7 +4066,7 @@ nlu:
     - [ngôn ngữ anh]{"entity":"majors"} có tại [cơ sở hải dương]{"entity":"location"}]{"entity":"location"} chứ ạ
     - em muốn học [ngôn ngữ anh]{"entity":"majors"} tại [cơ sở 3]{"entity":"location"} không biết [trường]{"entity":"organization"} có dạy không
 
-- intent: intent_135
+- intent: intent_135 - wrong_registration_information
   examples: |
     - dạem trai em lỡ đăng kí nhầm ngành muốn học mà ấn gửi đi rồi thì giờ muốn sửa lại bán đăng kí như nào ạ
     - em đăng kí sai bây giờ em đăng kí lại cái khác đc ko ạ
@@ -4106,7 +4106,7 @@ nlu:
     - em chọn nhầm phần đối tượng ạ
     - em chọn nhầm mất phần đối tượng rồi ạ
 
-- intent: intent_136
+- intent: intent_136 - no_indentification_number
   examples: |
     - nhg mà năm [2020]{"entity":"time"} e không thi thì mấy cái như sbd đối tượng dự thi viết ntn ạ
     - em không thi năm [2020]{"entity":"time"} nên không có sbd ạ
@@ -4120,7 +4120,7 @@ nlu:
     - không có số báo danh thì không viết ạ
     - không có sbd thì không cần viết đúng không ad
 
-- intent: intent_137
+- intent: intent_137 - ask_audience_policy
   examples: |
     - chính sách đối tượng
     - cái đối tượng là gì vậy ad
@@ -4138,7 +4138,7 @@ nlu:
     - phần chính sách đối tượng điền sao ạ
     - đối tượng điền như thế nào ạ
 
-- intent: intent_138
+- intent: intent_138 - unknown_intent
   examples: |
     - e đk 2 chị gạch cái trên đi đc
     - k ạlần ntn
@@ -4159,7 +4159,7 @@ nlu:
     - sadsamkd
     - sadefd grgrawewc
 
-- intent: intent_139
+- intent: intent_139 - ask_khoaichau_facility
   examples: |
     - mình ở [khoái châu]{"entity":"location"}
     - e ở [khoái châu]{"entity":"location"} e học [cs1]{"entity":"location"} ạ
@@ -4188,7 +4188,7 @@ nlu:
     - [trường]{"entity":"organization"} cho em hỏi [cơ sở 1]{"entity":"location"} dạy những gì ạ
     - [cơ sở 1]{"entity":"location"} dạy những ngành nào ạ
 
-- intent: intent_140
+- intent: intent_140 - ask_football_ground
   examples: |
     - [cơ sở khoái châu]{"entity":"location"} có mấy sân bóng ạ
     - và ở [cs1]{"entity":"location"} có sân bóng không ạ
@@ -4200,7 +4200,7 @@ nlu:
     - [cơ sở 1 khoái châu]{"entity":"location"} có sân bóng không ạ
     - em muốn học [cơ sở 1]{"entity":"location"} , không biết ở đó có sân bóng không ạ
 
-- intent: intent_141
+- intent: intent_141 - where_facility_admission
   examples: |
     - vâng nhưng em muốn nhập học tại [cs1]{"entity":"location"} nhưng có giấy báo tại [cs2]{"entity":"location"} thì sao ạ
     - nhập học khác cơ sở có được không ạ
@@ -4226,7 +4226,7 @@ nlu:
     - em muốn học tại [cơ sở 1]{"entity":"location"} nhưng nhân giấy báo lại là [cs2]{"entity":"location"}
     - [trường]{"entity":"organization"} cho em hỏi em muốn học [cơ sở 1]{"entity":"location"} mà lại nhận được giấy báo [cơ sở 2]{"entity":"location"}
 
-- intent: intent_142
+- intent: intent_142 - successful_data_entry
   examples: |
     - ad cho em hỏi là nếu em đăng kí thành công r nó ghi là nhập dữ liệu thành công là đúng k ad
     - ad ơi , cho em hỏi , sao ấn đăng ký thì nó bảo là “nhập dữ liệu thành công” vậy là đăng ký được rồi ạ ? hay là như nào ?
@@ -4250,7 +4250,7 @@ nlu:
     - ad cho em hỏi em nhập dữ liệu xong thì cần làm gì nữa
     - em nhập dữ liệu vào rồi ạ
 
-- intent: intent_143
+- intent: intent_143 - want_to_enter_talent_class_after_1_year_of_study
   examples: |
     - em hiện tại chuẩn bị bước vào năm 2 [ngành cơ điện tử]{"entity":"majors"} ,thì năm 2 muốn được học ở lớp tài năng thì cần những điều kiện gì ạ ?
     - em học năm 2 , em muốn học lớp tài năng thì cần gì ạ
@@ -4262,7 +4262,7 @@ nlu:
     - làm thế nào để vào lớp tài năng khi học hết năm nhất
     - học xong năm nhất muốn vào lớp tài năng
 
-- intent: intent_144
+- intent: intent_144 - how_many_years_to_study_if_have_high_school_diploma
   examples: |
     - mà cho em hỏi nganh co khí em qua đào tạo trung cấp rồi giờ phải học 4 năm nữa hông ạ?
     - em có bằng trung cấp thì cần học mấy năm đại học ạ
@@ -4276,7 +4276,7 @@ nlu:
     - em cần học thêm mấy năm , em đã có bằng trung cấp ạ
     - có bằng trung cấp thì phải học mấy năm
 
-- intent: intent_145
+- intent: intent_145 - ask_school_training_weld
   examples: |
     - cho e hoi bên m có khóa đào tạo về ngành hàn xì k ạ
     - hàn xì ạ
@@ -4289,7 +4289,7 @@ nlu:
     - em muốn học hàn xì có được không ạ
     - [trường]{"entity":"organization"} dạy khoá nào về hàn xì không ạ
 
-- intent: intent_146
+- intent: intent_146 - ask_4x6_photo_mandatory
   examples: |
     - ở đây bắt buộc là ảnh 4x6 ạ ?
     - ảnh bắt buộc là 4x6 ạ
@@ -4304,7 +4304,7 @@ nlu:
     - ảnh thì thế nào ạ
     - có bắt buộc ảnh 4x6 không ạ
 
-- intent: intent_147
+- intent: intent_147 - ask_military_service_transfer
   examples: |
     - bắt buộc phải di chuyển nghĩa vụ về [trường]{"entity":"organization"} mình đúng k ạ
     - chuyển nghĩa vụ bắt buộc về [trường]{"entity":"organization"} mình đúng không ạ
@@ -4318,7 +4318,7 @@ nlu:
     - cho em hỏi giấy chuyển nghĩ vụ quân sự có bắt buộc nộp không ạ
     - có bắt buộc chuyển nghĩa vụ về [trường]{"entity":"organization"} không
 
-- intent: intent_148
+- intent: intent_148 - lost_military_service_document
   examples: |
     - cho em hỏi là em bị mất giấy báo đăng kí nghĩa vụ quân sự rồi có ảnh hưởng gì tới thủ tục nhập học không ạ
     - cho em hỏi là nếu giấy chuyển nghĩa vụ quân sự của e bị mất thì có làm sao ko ạ
@@ -4333,7 +4333,7 @@ nlu:
     - em thiếu giấy nghĩa vụ quân sự ạ
     - [trường]{"entity":"organization"} cho em hỏi em nộp thiếu giấy nghĩa vụ quân sự thì có sao không ạ
 
-- intent: intent_149
+- intent: intent_149 - where_submit_documents
   examples: |
     - nộp giấy chuyển ngĩa vụ quân sự ở phòng nào ạ
     - nộp ở phòng nào ạ
@@ -4349,7 +4349,7 @@ nlu:
     - ad cho em hỏi nộp giấy tờ ở đâu ạ
     - phòng nào nhận giấy tờ ạ
 
-- intent: intent_150
+- intent: intent_150 - ask_timeserving
   examples: |
     - [nhà trường]{"entity":"organization"} làm việc vào thời gian nào ạ
     - cho em xin thời gian làm việc của [nhà trường]{"entity":"organization"}
@@ -4372,7 +4372,7 @@ nlu:
     - [trường]{"entity":"organization"} có làm việc [thứ 7]{"entity":"time"} không ạ
     - ad cho e hỏi [trường]{"entity":"organization"} có làm việc [t7 cn]{"entity":"time"} k ạ
 
-- intent: intent_151
+- intent: intent_151 - ask_time_intern
   examples: |
     - thời gian các đợt thực tập là như thế nào ạ?
     - cho em hỏi về thời gian thực tập ạ
@@ -4388,7 +4388,7 @@ nlu:
     - [trường]{"entity":"organization"} tổ chức thực tập xí nghiệp vào thời gian nào ạ
     - thực tập xí nghiệp từ bao giờ ạ
 
-- intent: intent_152
+- intent: intent_152 - ask_time_training
   examples: |
     - thời gian học là bao lâu ạ
     - thời gian đào tạo là bao lâu ạ
@@ -4408,7 +4408,7 @@ nlu:
     - trg đào tạo bao nhiêu năm ạ
     - thế học đại học là mấy năm ạ
 
-- intent: intent_153
+- intent: intent_153 - ask_college_transfer_study
   examples: |
     - và học liên thông lên cao đẳng thì thời gian học của em là bao lâu ạ ?
     - thời gian học liên thông lên cao đẳng là bao lâu ạ
@@ -4490,7 +4490,7 @@ nlu:
     - học liên thông cao đẳng mất bao lâu ạ
     - [nhà trường]{"entity":"organization"} cho e hỏi muốn xét tuyển hệ cao đẳng thì đăng kí nhập học ntn và giờ [nhà trường]{"entity":"organization"} còn nhận hồ sơ ko ạ?
 
-- intent: intent_154
+- intent: intent_154 - ask_diploma_2
   examples: |
     - [trường]{"entity":"organization"} có lớp học văn bằng 2 nào mở trong thời gian tới không ạ?
     - cho e hỏi năm nay [trường]{"entity":"organization"} mình có đào tạo vb2 k ạ
@@ -4506,7 +4506,7 @@ nlu:
     - em muốn học văn bằng 2 thì cần điều kiện gĩ
     - học văn bằng 2 cần những gì ạ
 
-- intent: intent_155
+- intent: intent_155 - ask_student_card
   examples: |
     - em muốn hỏi là: [nhà trường]{"entity":"organization"} bao giờ phát thẻ sv vậy ạ
     - bao giờ được làm thẻ sv ạ
@@ -4522,7 +4522,7 @@ nlu:
     - có thẻ sinh viên từ bap giờ ạ
     - [nhà trường]{"entity":"organization"} phát thẻ sinh viên từ bao giờ ạ
 
-- intent: intent_156
+- intent: intent_156 - ask_admission_when_graduating_from_previous_years
   examples: |
     - em tốt nghiệp thpt [năm 2018]{"entity":"time"} thì bây giờ em muốn vào [trường]{"entity":"organization"} mình học được không ạ ?
     - tôi có con trai đã tốt nghiệp thpt từ [năm 2018]{"entity":"time"} muốn vào học [trường]{"entity":"organization"} này có được không?
@@ -4554,7 +4554,7 @@ nlu:
     - ad cho em hỏi [trường]{"entity":"organization"} mình có tuyển sinh theo phương thức xét học bạ với các bạn đã tốt nghiệp cấp 3 [các năm trước]{"entity":"time"} không ạ?
     - tốt nghiệp [năm 2016]{"entity":"time"} thì bây giờ có được đăng ký xét tuyển theo học bạ không ạ ? đại học sư phạm kỹ thuật hưng yên
 
-- intent: intent_157
+- intent: intent_157 - ask_admission_conditions
   examples: |
     - xét tuyển cần điều kiện nào ạ?
     - cho em hỏi là điều kiện xét tuyển thì tối thiểu mỗi môn là mấy phẩy ạ
@@ -4570,7 +4570,7 @@ nlu:
     - điều kiện xét tuyển gồm những gì ạ
     - điều kiện xét tuyển tối thiểu là gì
 
-- intent: intent_158
+- intent: intent_158 - worried
   examples: |
     - e lo quá
     - em lo quá
@@ -4582,7 +4582,7 @@ nlu:
     - lo quá huhu
     - em lo quá [trường]{"entity":"organization"} ơi
 
-- intent: intent_159
+- intent: intent_159 - name_person
   examples: |
     - e tên là [nguyễn thị trang]{"entity":"person"}
     - e tên [phượng]{"entity":"person"}
@@ -4595,7 +4595,7 @@ nlu:
     - em tên [nguyễn văn tuyến]{"entity":"person"} ạ
     - tên [trần quang huy]{"entity":"person"}
 
-- intent: intent_160
+- intent: intent_160 - ask_acronyms
   examples: |
     - ktx là j ạ
     - cho e hỏi dxt là gì ạ

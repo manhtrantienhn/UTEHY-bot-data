@@ -3,1331 +3,1329 @@ version: "2.0"
 stories:
 - story: story_1
   steps:
-  - intent: intent_1
-  - action: utter_1
+  - intent: thanks
+  - action: utter_thank
 
 - story: story_2
   steps:
-  - intent: intent_2
-  - action: utter_2
+  - intent: greet
+  - action: utter_greet
 
 - story: story_3
   steps:
-  - intent: intent_3
-  - action: utter_3
+  - intent: sorry
+  - action: utter_sorry
 
 - story: story_4
   steps:
-  - intent: intent_4
-  - action: utter_4
+  - intent: ask_registration_online
+  - action: utter_ask_registration_online
 
 - story: story_5
   steps:
-  - intent: intent_5
-  - action: utter_5
+  - intent: additional_docs_after_applying_online
+  - action: utter_additional_docs_after_applying_online
 
 - story: story_6
   steps:
-  - intent: intent_6
-  - action: utter_6
+  - intent: ask_time_for_results
+  - action: utter_ask_time_for_results
 
 - story: story_7
   steps:
-  - intent: intent_7
-  - action: utter_7
+  - intent: admission_paper
+  - action: utter_admission_paper
 
 - story: story_8
   steps:
-  - intent: intent_8
-  - action: utter_8
+  - intent: admission_application_time
+  - action: utter_admission_application_time
 
 - story: story_9
   steps:
-  - intent: intent_9
-  - action: utter_9
+  - intent: requirements_registration_docs
+  - action: utter_requirements_registration_docs
 
 - story: story_10
   steps:
-  - intent: intent_10
-  - action: utter_10
+  - intent: school_start_time
+  - action: utter_school_start_time
 
 - story: story_11
   steps:
-  - intent: intent_11
-  - action: utter_11
+  - intent: admission_procedure_time
+  - action: utter_admission_procedure_time
 
 - story: story_12
   steps:
-  - intent: intent_12
-  - action: utter_12
+  - intent: admission_on_11_9
+  - action: utter_admission_on_11_9
 
 - story: story_13
   steps:
-  - intent: intent_13
-  - action: utter_13
+  - intent: admission_after_11_9
+  - action: utter_admission_after_11_9
 
 - story: story_14
   steps:
-  - intent: intent_14
-  - action: utter_14
+  - intent: do_not_understand
+  - action: utter_do_not_understand
 
 - story: story_15
   steps:
-  - intent: intent_15
-  - action: utter_15
+  - intent: admission_records
+  - action: utter_admission_records
 
 - story: story_16
   steps:
-  - intent: intent_16
-  - action: utter_16
+  - intent: additional_required
+  - action: utter_additional_required
 
 - story: story_17
   steps:
-  - intent: intent_17
-  - action: utter_17
+  - intent: docs_notarize
+  - action: utter_docs_notarize
 
 - story: story_18
   steps:
-  - intent: intent_18
-  - action: utter_18
+  - intent: docs_photocopy
+  - action: utter_docs_photocopy
 
 - story: story_19
   steps:
-  - intent: intent_19
-  - action: utter_19
+  - intent: area_field_in_registration_docs
+  - action: utter_area_field_in_registration_docs
 
 - story: story_20
   steps:
-  - intent: intent_20
-  - action: utter_20
+  - intent: registry_from_other_regions
+  - action: utter_registry_from_other_regions
 
 - story: story_21
   steps:
-  - intent: intent_21
-  - action: utter_21
+  - intent: ask_fees
+  - action: utter_ask_fees
 
 - story: story_22
   steps:
-  - intent: intent_22
-  - action: utter_22
+  - intent: ask_school_info
+  - action: utter_ask_school_info
 
 - story: story_23
   steps:
-  - intent: intent_23
-  - action: utter_23
+  - intent: number_occupations_school_train
+  - action: utter_number_occupations_school_train
 
 - story: story_24
   steps:
-  - intent: intent_24
-  - action: utter_24
+  - intent: ask_can_choose_training_facility
+  - action: utter_ask_can_choose_training_facility
 
 - story: story_25
   steps:
-  - intent: intent_25
-  - action: utter_25
+  - intent: ask_change_wish
+  - action: utter_ask_change_wish
 
 - story: story_26
   steps:
-  - intent: intent_26
-  - action: utter_26
+  - intent: registry_many_wish
+  - action: utter_registry_many_wish
 
 - story: story_27
   steps:
-  - intent: intent_27
-  - action: utter_27
+  - intent: registry_with_school_profile
+  - action: utter_registry_with_school_profile
 
 - story: story_28
   steps:
-  - intent: intent_28
-  - action: utter_28
+  - intent: apply_directly
+  - action: utter_apply_directly
 
 - story: story_29
   steps:
-  - intent: intent_29
-  - action: utter_29
+  - intent: score_combine_shool_profile
+  - action: utter_score_combine_shool_profile
 
 - story: story_30
   steps:
-  - intent: intent_30
-  - action: utter_30
+  - intent: registry_school_profile_now
+  - action: utter_registry_school_profile_now
 
 - story: story_31
   steps:
-  - intent: intent_31
-  - action: utter_31
+  - intent: registration_form
+  - action: utter_registration_form
 
 - story: story_32
   steps:
-  - intent: intent_32
-  - action: utter_32
+  - intent: apply_shool_profile_with_graduation_exam_score
+  - action: utter_apply_shool_profile_with_graduation_exam_score
 
 - story: story_33
   steps:
-  - intent: intent_33
-  - action: utter_33
+  - intent: ask_majors_apply_school_profile
+  - action: utter_ask_majors_apply_school_profile
 
 - story: story_34
   steps:
-  - intent: intent_34
-  - action: utter_34
+  - intent: apply_shool_profile_and_graduation_exam_score
+  - action: utter_apply_shool_profile_and_graduation_exam_score
 
 - story: story_35
   steps:
-  - intent: intent_35
-  - action: utter_35
+  - intent: ask_study_and_work
+  - action: utter_ask_study_and_work
 
 - story: story_36
   steps:
-  - intent: intent_36
-  - action: utter_36
+  - intent: ask_late_admission
+  - action: utter_ask_late_admission
 
 - story: story_37
   steps:
-  - intent: intent_37
-  - action: utter_37
+  - intent: pre_registration_priority
+  - action: utter_pre_registration_priority
 
 - story: story_38
   steps:
-  - intent: intent_38
-  - action: utter_38
+  - intent: scholarship
+  - action: utter_scholarship
 
 - story: story_39
   steps:
-  - intent: intent_39
-  - action: utter_39
+  - intent: ask_bridging_learning
+  - action: utter_ask_bridging_learning
 
 - story: story_40
   steps:
-  - intent: intent_40
-  - action: utter_40
+  - intent: where_admission_paper_send
+  - action: utter_where_admission_paper_send
 
 - story: story_41
   steps:
-  - intent: intent_41
-  - action: utter_41
+  - intent: change_registry_options
+  - action: utter_change_registry_options
 
 - story: story_42
   steps:
-  - intent: intent_42
-  - action: utter_42
+  - intent: ask_study_saturday_and_sunday
+  - action: utter_ask_study_saturday_and_sunday
 
 - story: story_43
   steps:
-  - intent: intent_43
-  - action: utter_43
+  - intent: registry_graduation_exam_score
+  - action: utter_registry_graduation_exam_score
 
 - story: story_44
   steps:
-  - intent: intent_44
-  - action: utter_44
+  - intent: change_majors
+  - action: utter_change_majors
 
 - story: story_45
   steps:
-  - intent: intent_45
-  - action: utter_45
+  - intent: admission_options
+  - action: utter_admission_options
 
 - story: story_46
   steps:
-  - intent: intent_46
-  - action: utter_46
+  - intent: mechatronics_apply_school_profile
+  - action: utter_mechatronics_apply_school_profile
 
 - story: story_47
   steps:
-  - intent: intent_47
-  - action: utter_47
+  - intent: refrigeration_targets
+  - action: utter_refrigeration_targets
 
 - story: story_48
   steps:
-  - intent: intent_48
-  - action: utter_48
+  - intent: english_language_majors
+  - action: utter_english_language_majors
 
 - story: story_49
   steps:
-  - intent: intent_49
-  - action: utter_49
+  - intent: english_language_majors_job
+  - action: utter_english_language_majors_job
 
 - story: story_50
   steps:
-  - intent: intent_50
-  - action: utter_50
+  - intent: where_english_language_majors_training
+  - action: utter_where_english_language_majors_training
 
 - story: story_51
   steps:
-  - intent: intent_51
-  - action: utter_51
+  - intent: english_entrance_certificate
+  - action: utter_english_entrance_certificate
 
 - story: story_52
   steps:
-  - intent: intent_52
-  - action: utter_52
+  - intent: ask_school_offer_english_training
+  - action: utter_ask_school_offer_english_training
 
 - story: story_53
   steps:
-  - intent: intent_53
-  - action: utter_53
+  - intent: 2nd_degree_english
+  - action: utter_2nd_degree_english
 
 - story: story_54
   steps:
-  - intent: intent_54
-  - action: utter_54
+  - intent: sewing_technology_pedagogy
+  - action: utter_sewing_technology_pedagogy
 
 - story: story_55
   steps:
-  - intent: intent_55
-  - action: utter_55
+  - intent: fashion_designer_majors
+  - action: utter_fashion_designer_majors
 
 - story: story_56
   steps:
-  - intent: intent_56
-  - action: utter_56
+  - intent: sewing_technology
+  - action: utter_sewing_technology
 
 - story: story_57
   steps:
-  - intent: intent_57
-  - action: utter_57
+  - intent: score_combine_sewing_technology
+  - action: utter_score_combine_sewing_technology
 
 - story: story_58
   steps:
-  - intent: intent_58
-  - action: utter_58
+  - intent: job_ratio_uppon_graduation
+  - action: utter_job_ratio_uppon_graduation
 
 - story: story_59
   steps:
-  - intent: intent_59
-  - action: utter_59
+  - intent: sewing_technology_apply_school_profile
+  - action: utter_sewing_technology_apply_school_profile
 
 - story: story_60
   steps:
-  - intent: intent_60
-  - action: utter_60
+  - intent: fitness_and_english_subjects
+  - action: utter_fitness_and_english_subjects
 
 - story: story_61
   steps:
-  - intent: intent_61
-  - action: utter_61
+  - intent: engineering_majors
+  - action: utter_engineering_majors
 
 - story: story_62
   steps:
-  - intent: intent_62
-  - action: utter_62
+  - intent: information_technology_majors
+  - action: utter_information_technology_majors
 
 - story: story_63
   steps:
-  - intent: intent_63
-  - action: utter_63
+  - intent: where_infomation_technology_majors_training
+  - action: utter_where_infomation_technology_majors_training
 
 - story: story_64
   steps:
-  - intent: intent_64
-  - action: utter_64
+  - intent: learn_information_technology_majors_master
+  - action: utter_learn_information_technology_majors_master
 
 - story: story_65
   steps:
-  - intent: intent_65
-  - action: utter_65
+  - intent: software_testing_majors
+  - action: utter_software_testing_majors
 
 - story: story_66
   steps:
-  - intent: intent_66
-  - action: utter_66
+  - intent: web_technology_majors
+  - action: utter_web_technology_majors
 
 - story: story_67
   steps:
-  - intent: intent_67
-  - action: utter_67
+  - intent: when_registry_majors
+  - action: utter_when_registry_majors
 
 - story: story_68
   steps:
-  - intent: intent_68
-  - action: utter_68
+  - intent: graphic_design_majors
+  - action: utter_graphic_design_majors
 
 - story: story_69
   steps:
-  - intent: intent_69
-  - action: utter_69
+  - intent: technology_software_majors
+  - action: utter_technology_software_majors
 
 - story: story_70
   steps:
-  - intent: intent_70
-  - action: utter_70
+  - intent: girl_favorite_majors
+  - action: utter_girl_favorite_majors
 
 - story: story_71
   steps:
-  - intent: intent_71
-  - action: utter_71
+  - intent: mechanical_majors
+  - action: utter_mechanical_majors
 
 - story: story_72
   steps:
-  - intent: intent_72
-  - action: utter_72
+  - intent: pedagory_majors
+  - action: utter_pedagory_majors
 
 - story: story_73
   steps:
-  - intent: intent_73
-  - action: utter_73
+  - intent: ask_easy_majors
+  - action: utter_ask_easy_majors
 
 - story: story_74
   steps:
-  - intent: intent_74
-  - action: utter_74
+  - intent: ask_3rd_facility_training_mechanical
+  - action: utter_ask_3rd_facility_training_mechanical
 
 - story: story_75
   steps:
-  - intent: intent_75
-  - action: utter_75
+  - intent: car_majors
+  - action: utter_car_majors
 
 - story: story_76
   steps:
-  - intent: intent_76
-  - action: utter_76
+  - intent: car_majors_targets
+  - action: utter_car_majors_targets
 
 - story: story_77
   steps:
-  - intent: intent_77
-  - action: utter_77
+  - intent: ask_car_technology_majors_apply_school_profile
+  - action: utter_ask_car_technology_majors_apply_school_profile
 
 - story: story_78
   steps:
-  - intent: intent_78
-  - action: utter_78
+  - intent: ask_majors_have_chance_work_abroad
+  - action: utter_ask_majors_have_chance_work_abroad
 
 - story: story_79
   steps:
-  - intent: intent_79
-  - action: utter_79
+  - intent: ask_car_and_mechatronics_majors
+  - action: utter_ask_car_and_mechatronics_majors
 
 - story: story_80
   steps:
-  - intent: intent_80
-  - action: utter_80
+  - intent: industrial_electricity_majors
+  - action: utter_industrial_electricity_majors
 
 - story: story_81
   steps:
-  - intent: intent_81
-  - action: utter_81
+  - intent: electronic_majors
+  - action: utter_electronic_majors
 
 - story: story_82
   steps:
-  - intent: intent_82
-  - action: utter_82
+  - intent: automation_majors
+  - action: utter_automation_majors
 
 - story: story_83
   steps:
-  - intent: intent_83
-  - action: utter_83
+  - intent: mechatronics_majors
+  - action: utter_mechatronics_majors
 
 - story: story_84
   steps:
-  - intent: intent_84
-  - action: utter_84
+  - intent: accountant_majors
+  - action: utter_accountant_majors
 
 - story: story_85
   steps:
-  - intent: intent_85
-  - action: utter_85
+  - intent: 2nd_degree_accountant
+  - action: utter_2nd_degree_accountant
 
 - story: story_86
   steps:
-  - intent: intent_86
-  - action: utter_86
+  - intent: business_administration_majors
+  - action: utter_business_administration_majors
 
 - story: story_87
   steps:
-  - intent: intent_87
-  - action: utter_87
+  - intent: registry_social_science_score_combine
+  - action: utter_registry_social_science_score_combine
 
 - story: story_88
   steps:
-  - intent: intent_88
-  - action: utter_88
+  - intent: ask_college_training
+  - action: utter_ask_college_training
 
 - story: story_89
   steps:
-  - intent: intent_89
-  - action: utter_89
+  - intent: college_or_university_training
+  - action: utter_college_or_university_training
 
 - story: story_90
   steps:
-  - intent: intent_90
-  - action: utter_90
+  - intent: where_student_code
+  - action: utter_where_student_code
 
 - story: story_91
   steps:
-  - intent: intent_91
-  - action: utter_91
+  - intent: registration_methods
+  - action: utter_registration_methods
 
 - story: story_92
   steps:
-  - intent: intent_92
-  - action: utter_92
+  - intent: ask_admissions_office_phone_number
+  - action: utter_ask_admissions_office_phone_number
 
 - story: story_93
   steps:
-  - intent: intent_93
-  - action: utter_93
+  - intent: conditions_direct_admission
+  - action: utter_conditions_direct_admission
 
 - story: story_94
   steps:
-  - intent: intent_94
-  - action: utter_94
+  - intent: ask_1st_batch_admission_list
+  - action: utter_ask_1st_batch_admission_list
 
 - story: story_95
   steps:
-  - intent: intent_95
-  - action: utter_95
+  - intent: said_pass_admission
+  - action: utter_said_pass_admission
 
 - story: story_96
   steps:
-  - intent: intent_96
-  - action: utter_96
+  - intent: pass_admission_but_not_receive_notice
+  - action: utter_pass_admission_but_not_receive_notice
 
 - story: story_97
   steps:
-  - intent: intent_97
-  - action: utter_97
+  - intent: ask_admission_procedure
+  - action: utter_ask_admission_procedure
 
 - story: story_98
   steps:
-  - intent: intent_98
-  - action: utter_98
+  - intent: wrong_infomation
+  - action: utter_wrong_infomation
 
 - story: story_99
   steps:
-  - intent: intent_99
-  - action: utter_99
+  - intent: apply_score_grade_12
+  - action: utter_apply_score_grade_12
 
 - story: story_100
   steps:
-  - intent: intent_100
-  - action: utter_100
+  - intent: apply_score_grade_11
+  - action: utter_apply_score_grade_11
 
 - story: story_101
   steps:
-  - intent: intent_101
-  - action: utter_101
+  - intent: receive_notice_when_change_majors
+  - action: utter_receive_notice_when_change_majors
 
 - story: story_102
   steps:
-  - intent: intent_102
-  - action: utter_102
+  - intent: ask_how_many_enrollments
+  - action: utter_ask_how_many_enrollments
 
 - story: story_103
   steps:
-  - intent: intent_103
-  - action: utter_103
+  - intent: 1st_round_admission
+  - action: utter_1st_round_admission
 
 - story: story_104
   steps:
-  - intent: intent_104
-  - action: utter_104
+  - intent: 2nd_round_admission
+  - action: utter_2nd_round_admission
 
 - story: story_105
   steps:
-  - intent: intent_105
-  - action: utter_105
+  - intent: 3rd_round_admission
+  - action: utter_3rd_round_admission
 
 - story: story_106
   steps:
-  - intent: intent_106
-  - action: utter_106
+  - intent: ask_dormitory
+  - action: utter_ask_dormitory
 
 - story: story_107
   steps:
-  - intent: intent_107
-  - action: utter_107
+  - intent: ask_pass_admission_rate
+  - action: utter_ask_pass_admission_rate
 
 - story: story_108
   steps:
-  - intent: intent_108
-  - action: utter_108
+  - intent: ask_supporting_policies
+  - action: utter_ask_supporting_policies
 
 - story: story_109
   steps:
-  - intent: intent_109
-  - action: utter_109
+  - intent: ask_clubs
+  - action: utter_ask_clubs
 
 - story: story_110
   steps:
-  - intent: intent_110
-  - action: utter_110
+  - intent: ask_standard_admission_score
+  - action: utter_ask_standard_admission_score
 
 - story: story_111
   steps:
-  - intent: intent_111
-  - action: utter_111
+  - intent: ask_floor_admission_score
+  - action: utter_ask_floor_admission_score
 
 - story: story_112
   steps:
-  - intent: intent_112
-  - action: utter_112
+  - intent: choose_resgitration_options_when_low_score
+  - action: utter_choose_resgitration_options_when_low_score
 
 - story: story_113
   steps:
-  - intent: intent_113
-  - action: utter_113
+  - intent: ask_area_points
+  - action: utter_ask_area_points
 
 - story: story_114
   steps:
-  - intent: intent_114
-  - action: utter_114
+  - intent: with_this_score_should_choose_majors
+  - action: utter_with_this_score_should_choose_majors
 
 - story: story_115
   steps:
-  - intent: intent_115
-  - action: utter_115
+  - intent: ask_talent_class
+  - action: utter_ask_talent_class
 
 - story: story_116
   steps:
-  - intent: intent_116
-  - action: utter_116
+  - intent: ask_school_targets
+  - action: utter_ask_school_targets
 
 - story: story_117
   steps:
-  - intent: intent_117
-  - action: utter_117
+  - intent: ask_study_credits
+  - action: utter_ask_study_credits
 
 - story: story_118
   steps:
-  - intent: intent_118
-  - action: utter_118
+  - intent: ask_tuition
+  - action: utter_ask_tuition
 
 - story: story_119
   steps:
-  - intent: intent_119
-  - action: utter_119
+  - intent: how_many_months_1_year_study
+  - action: utter_how_many_months_1_year_study
 
 - story: story_120
   steps:
-  - intent: intent_120
-  - action: utter_120
+  - intent: ask_curriculum_vitae
+  - action: utter_ask_curriculum_vitae
 
 - story: story_121
   steps:
-  - intent: intent_121
-  - action: utter_121
+  - intent: ask_Doan_book
+  - action: utter_ask_Doan_book
 
 - story: story_122
   steps:
-  - intent: intent_122
-  - action: utter_122
+  - intent: ask_link_list_admission
+  - action: utter_ask_link_list_admission
 
 - story: story_123
   steps:
-  - intent: intent_123
-  - action: utter_123
+  - intent: ask_school_code
+  - action: utter_ask_school_code
 
 - story: story_124
   steps:
-  - intent: intent_124
-  - action: utter_124
+  - intent: move_to_spkt_hung_yen
+  - action: utter_move_to_spkt_hung_yen
 
 - story: story_125
   steps:
-  - intent: intent_125
-  - action: utter_125
+  - intent: vocational_school_want_register
+  - action: utter_vocational_school_want_register
 
 - story: story_126
   steps:
-  - intent: intent_126
-  - action: utter_126
+  - intent: ask_4th_facility
+  - action: utter_ask_4th_facility
 
 - story: story_127
   steps:
-  - intent: intent_127
-  - action: utter_127
+  - intent: ask_affiliate_program
+  - action: utter_ask_affiliate_program
 
 - story: story_128
   steps:
-  - intent: intent_128
-  - action: utter_128
+  - intent: add_documents_later
+  - action: utter_add_documents_later
 
 - story: story_129
   steps:
-  - intent: intent_129
-  - action: utter_129
+  - intent: ask_health_insurance
+  - action: utter_ask_health_insurance
 
 - story: story_130
   steps:
-  - intent: intent_130
-  - action: utter_130
+  - intent: ask_demographic_docs
+  - action: utter_ask_demographic_docs
 
 - story: story_131
   steps:
-  - intent: intent_131
-  - action: utter_131
+  - intent: ask_2nd_facility
+  - action: utter_ask_2nd_facility
 
 - story: story_132
   steps:
-  - intent: intent_132
-  - action: utter_132
+  - intent: ask_haiduong_facility
+  - action: utter_ask_haiduong_facility
 
 - story: story_133
   steps:
-  - intent: intent_133
-  - action: utter_133
+  - intent: ask_3rd_facility_training_car_majors
+  - action: utter_ask_3rd_facility_training_car_majors
 
 - story: story_134
   steps:
-  - intent: intent_134
-  - action: utter_134
+  - intent: ask_3rd_facility_training_english_language_majors
+  - action: utter_ask_3rd_facility_training_english_language_majors
 
 - story: story_135
   steps:
-  - intent: intent_135
-  - action: utter_135
+  - intent: wrong_registration_information
+  - action: utter_wrong_registration_information
 
 - story: story_136
   steps:
-  - intent: intent_136
-  - action: utter_136
+  - intent: no_indentification_number
+  - action: utter_no_indentification_number
 
 - story: story_137
   steps:
-  - intent: intent_137
-  - action: utter_137
+  - intent: ask_audience_policy
+  - action: utter_ask_audience_policy
 
 - story: story_138
   steps:
-  - intent: intent_138
-  - action: utter_138
+  - intent: unknown_intent
+  - action: utter_unknown_intent
 
 - story: story_139
   steps:
-  - intent: intent_139
-  - action: utter_139
+  - intent: ask_khoaichau_facility
+  - action: utter_ask_khoaichau_facility
 
 - story: story_140
   steps:
-  - intent: intent_140
-  - action: utter_140
+  - intent: ask_football_ground
+  - action: utter_ask_football_ground
 
 - story: story_141
   steps:
-  - intent: intent_141
-  - action: utter_141
+  - intent: where_facility_admission
+  - action: utter_where_facility_admission
 
 - story: story_142
   steps:
-  - intent: intent_142
-  - action: utter_142
+  - intent: successful_data_entry
+  - action: utter_successful_data_entry
 
 - story: story_143
   steps:
-  - intent: intent_143
-  - action: utter_143
+  - intent: want_to_enter_talent_class_after_1_year_of_study
+  - action: utter_want_to_enter_talent_class_after_1_year_of_study
 
 - story: story_144
   steps:
-  - intent: intent_144
-  - action: utter_144
+  - intent: how_many_years_to_study_if_have_high_school_diploma
+  - action: utter_how_many_years_to_study_if_have_high_school_diploma
 
 - story: story_145
   steps:
-  - intent: intent_145
-  - action: utter_145
+  - intent: ask_school_training_weld
+  - action: utter_ask_school_training_weld
 
 - story: story_146
   steps:
-  - intent: intent_146
-  - action: utter_146
+  - intent: ask_4x6_photo_mandatory
+  - action: utter_ask_4x6_photo_mandatory
 
 - story: story_147
   steps:
-  - intent: intent_147
-  - action: utter_147
+  - intent: ask_military_service_transfer
+  - action: utter_ask_military_service_transfer
 
 - story: story_148
   steps:
-  - intent: intent_148
-  - action: utter_148
+  - intent: lost_military_service_document
+  - action: utter_lost_military_service_document
 
 - story: story_149
   steps:
-  - intent: intent_149
-  - action: utter_149
+  - intent: where_submit_documents
+  - action: utter_where_submit_documents
 
 - story: story_150
   steps:
-  - intent: intent_150
-  - action: utter_150
+  - intent: ask_timeserving
+  - action: utter_ask_timeserving
 
 - story: story_151
   steps:
-  - intent: intent_151
-  - action: utter_151
+  - intent: ask_time_intern
+  - action: utter_ask_time_intern
 
 - story: story_152
   steps:
-  - intent: intent_152
-  - action: utter_152
+  - intent: ask_time_training
+  - action: utter_ask_time_training
 
 - story: story_153
   steps:
-  - intent: intent_153
-  - action: utter_153
+  - intent: ask_college_transfer_study
+  - action: utter_ask_college_transfer_study
 
 - story: story_154
   steps:
-  - intent: intent_154
-  - action: utter_154
+  - intent: ask_diploma_2
+  - action: utter_ask_diploma_2
 
 - story: story_155
   steps:
-  - intent: intent_155
-  - action: utter_155
+  - intent: ask_student_card
+  - action: utter_ask_student_card
 
 - story: story_156
   steps:
-  - intent: intent_156
-  - action: utter_156
+  - intent: ask_admission_when_graduating_from_previous_years
+  - action: utter_ask_admission_when_graduating_from_previous_years
 
 - story: story_157
   steps:
-  - intent: intent_157
-  - action: utter_157
+  - intent: ask_admission_conditions
+  - action: utter_ask_admission_conditions
 
 - story: story_158
   steps:
-  - intent: intent_158
-  - action: utter_158
+  - intent: worried
+  - action: utter_worried
 
 - story: story_159
   steps:
-  - intent: intent_159
-  - action: utter_159
+  - intent: name_person
+  - action: utter_name_person
 
 - story: story_160
   steps:
-  - intent: intent_160
-  - action: utter_160
+  - intent: ask_acronyms
+  - action: utter_ask_acronyms
 
 - story: story_161
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_8
-  - action: utter_8
-  - intent: intent_4
-  - action: utter_4
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_application_time
+  - action: utter_admission_application_time
+  - intent: ask_registration_online
+  - action: utter_ask_registration_online
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_162
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_4
-  - action: utter_4
-  - intent: intent_5
-  - action: utter_5
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_registration_online
+  - action: utter_ask_registration_online
+  - intent: additional_docs_after_applying_online
+  - action: utter_additional_docs_after_applying_online
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_163
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_6
-  - action: utter_6
-  - intent: intent_7
-  - action: utter_7
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_time_for_results
+  - action: utter_ask_time_for_results
+  - intent: admission_paper
+  - action: utter_admission_paper
 
 - story: story_164
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_160
-  - action: utter_160
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_acronyms
+  - action: utter_ask_acronyms
 
 - story: story_165
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_8
-  - action: utter_8
-  - intent: intent_4
-  - action: utter_4
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_application_time
+  - action: utter_admission_application_time
+  - intent: ask_registration_online
+  - action: utter_ask_registration_online
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_166
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_8
-  - action: utter_8
-  - intent: intent_9
-  - action: utter_9
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_application_time
+  - action: utter_admission_application_time
+  - intent: requirements_registration_docs
+  - action: utter_requirements_registration_docs
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_167
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_20
-  - action: utter_20
-  - intent: intent_21
-  - action: utter_21
+  - intent: greet
+  - action: utter_greet
+  - intent: registry_from_other_regions
+  - action: utter_registry_from_other_regions
+  - intent: ask_fees
+  - action: utter_ask_fees
 
 - story: story_168
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_22
-  - action: utter_22
-  - intent: intent_24
-  - action: utter_24
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_school_info
+  - action: utter_ask_school_info
+  - intent: ask_can_choose_training_facility
+  - action: utter_ask_can_choose_training_facility
   
 - story: story_169
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_30
-  - action: utter_30
-  - intent: intent_32
-  - action: utter_32
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: registry_school_profile_now
+  - action: utter_registry_school_profile_now
+  - intent: apply_shool_profile_with_graduation_exam_score
+  - action: utter_apply_shool_profile_with_graduation_exam_score
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_170
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_37
-  - action: utter_37
+  - intent: greet
+  - action: utter_greet
+  - intent: pre_registration_priority
+  - action: utter_pre_registration_priority
 
 - story: story_171
   steps:
-  - intent: intent_40
-  - action: utter_40
-  - intent: intent_7
-  - action: utter_7
+  - intent: where_admission_paper_send
+  - action: utter_where_admission_paper_send
+  - intent: admission_paper
+  - action: utter_admission_paper
 
 - story: story_172
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_124
-  - action: utter_124
-  - intent: intent_123
-  - action: utter_123
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: move_to_spkt_hung_yen
+  - action: utter_move_to_spkt_hung_yen
+  - intent: ask_school_code
+  - action: utter_ask_school_code
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_173
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_125
-  - action: utter_125
-  - intent: intent_123
-  - action: utter_123
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: vocational_school_want_register
+  - action: utter_vocational_school_want_register
+  - intent: ask_school_code
+  - action: utter_ask_school_code
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_174
   steps:
-  - intent: intent_128
-  - action: utter_128
-  - intent: intent_129
-  - action: utter_129
-  - intent: intent_130
-  - action: utter_130
-  - intent: intent_1
-  - action: utter_1
+  - intent: add_documents_later
+  - action: utter_add_documents_later
+  - intent: ask_health_insurance
+  - action: utter_ask_health_insurance
+  - intent: ask_demographic_docs
+  - action: utter_ask_demographic_docs
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_175
   steps:
-  - intent: intent_22
-  - action: utter_22
-  - intent: intent_131
-  - action: utter_131
-  - intent: intent_132
-  - action: utter_132
-  - intent: intent_1
-  - action: utter_1
+  - intent: ask_school_info
+  - action: utter_ask_school_info
+  - intent: ask_2nd_facility
+  - action: utter_ask_2nd_facility
+  - intent: ask_haiduong_facility
+  - action: utter_ask_haiduong_facility
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_176
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_39
-  - action: utter_39
-  - intent: intent_42
-  - action: utter_42
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_bridging_learning
+  - action: utter_ask_bridging_learning
+  - intent: ask_study_saturday_and_sunday
+  - action: utter_ask_study_saturday_and_sunday
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_177
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_62
-  - action: utter_62
-  - intent: intent_64
-  - action: utter_64
-  - intent: intent_66
-  - action: utter_66
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: information_technology_majors
+  - action: utter_information_technology_majors
+  - intent: learn_information_technology_majors_master
+  - action: utter_learn_information_technology_majors_master
+  - intent: web_technology_majors
+  - action: utter_web_technology_majors
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_178
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_62
-  - action: utter_62
-  - intent: intent_68
-  - action: utter_68
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: information_technology_majors
+  - action: utter_information_technology_majors
+  - intent: graphic_design_majors
+  - action: utter_graphic_design_majors
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_179
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_70
-  - action: utter_70
-  - intent: intent_67
-  - action: utter_67
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: when_registry_majors
+  - action: utter_when_registry_majors
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_180
   steps:
-  - intent: intent_12
-  - action: utter_12
-  - intent: intent_10
-  - action: utter_10
-  - intent: intent_1
-  - action: utter_1
+  - intent: admission_on_11_9
+  - action: utter_admission_on_11_9
+  - intent: school_start_time
+  - action: utter_school_start_time
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_181
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_11
-  - action: utter_11
-  - intent: intent_10
-  - action: utter_10
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_procedure_time
+  - action: utter_admission_procedure_time
+  - intent: school_start_time
+  - action: utter_school_start_time
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_182
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_35
-  - action: utter_35
-  - intent: intent_42
-  - action: utter_42
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_study_and_work
+  - action: utter_ask_study_and_work
+  - intent: ask_study_saturday_and_sunday
+  - action: utter_ask_study_saturday_and_sunday
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_183
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_43
-  - action: utter_43
-  - intent: intent_40
-  - action: utter_40
-  - intent: intent_38
-  - action: utter_38
+  - intent: greet
+  - action: utter_greet
+  - intent: registry_graduation_exam_score
+  - action: utter_registry_graduation_exam_score
+  - intent: where_admission_paper_send
+  - action: utter_where_admission_paper_send
+  - intent: scholarship
+  - action: utter_scholarship
 
 - story: story_184
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_50
-  - action: utter_50
-  - intent: intent_51
-  - action: utter_51
-  - intent: intent_49
-  - action: utter_49
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: where_english_language_majors_training
+  - action: utter_where_english_language_majors_training
+  - intent: english_entrance_certificate
+  - action: utter_english_entrance_certificate
+  - intent: english_language_majors_job
+  - action: utter_english_language_majors_job
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_185
   steps:
-  - intent: intent_56
-  - action: utter_56
-  - intent: intent_57
-  - action: utter_57
-  - intent: intent_54
-  - action: utter_54
-  - intent: intent_1
-  - action: utter_1
+  - intent: sewing_technology
+  - action: utter_sewing_technology
+  - intent: score_combine_sewing_technology
+  - action: utter_score_combine_sewing_technology
+  - intent: sewing_technology_pedagogy
+  - action: utter_sewing_technology_pedagogy
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_186
   steps:
-  - intent: intent_52
-  - action: utter_52
-  - intent: intent_49
-  - action: utter_49
-  - intent: intent_58
-  - action: utter_58
-  - intent: intent_1
-  - action: utter_1
+  - intent: ask_school_offer_english_training
+  - action: utter_ask_school_offer_english_training
+  - intent: english_language_majors_job
+  - action: utter_english_language_majors_job
+  - intent: job_ratio_uppon_graduation
+  - action: utter_job_ratio_uppon_graduation
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_187
   steps:
-  - intent: intent_58
-  - action: utter_58
-  - intent: intent_60
-  - action: utter_60
-  - intent: intent_65
-  - action: utter_65
-  - intent: intent_1
-  - action: utter_1
+  - intent: job_ratio_uppon_graduation
+  - action: utter_job_ratio_uppon_graduation
+  - intent: fitness_and_english_subjects
+  - action: utter_fitness_and_english_subjects
+  - intent: software_testing_majors
+  - action: utter_software_testing_majors
+  - intent: thanks
+  - action: utter_thanks
 
 - story: story_188
   steps:
-  - intent: intent_73
-  - action: utter_73
-  - intent: intent_70
-  - action: utter_70
-  - intent: intent_84
-  - action: utter_84
-  - intent: intent_86
-  - action: utter_86
+  - intent: ask_easy_majors
+  - action: utter_ask_easy_majors
+  - intent: girl_favorite_majors
+  - action: utter_girl_favorite_majors
+  - intent: accountant_majors
+  - action: utter_accountant_majors
+  - intent: business_administration_majors
+  - action: utter_business_administration_majors
   
 - story: story_189
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_89
-  - action: utter_89
-  - intent: intent_91
-  - action: utter_91
-  - intent: intent_92
-  - action: utter_92
+  - intent: greet
+  - action: utter_greet
+  - intent: college_or_university_training
+  - action: utter_college_or_university_training
+  - intent: registration_methods
+  - action: utter_registration_methods
+  - intent: ask_admissions_office_phone_number
+  - action: utter_ask_admissions_office_phone_number
     
 - story: story_190
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_157
-  - action: utter_157
-  - intent: intent_4
-  - action: utter_4
-  - intent: intent_6
-  - action: utter_6
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_admission_conditions
+  - action: utter_ask_admission_conditions
+  - intent: ask_registration_online
+  - action: utter_ask_registration_online
+  - intent: ask_time_for_results
+  - action: utter_ask_time_for_results
       
 - story: story_191
   steps:
-  - intent: intent_152
-  - action: utter_152
-  - intent: intent_151
-  - action: utter_151
-  - intent: intent_1
-  - action: utter_1
+  - intent: ask_time_training
+  - action: utter_ask_time_training
+  - intent: ask_time_intern
+  - action: utter_ask_time_intern
+  - intent: thanks
+  - action: utter_thanks
     
 - story: story_192
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_154
-  - action: utter_154
-  - intent: intent_42
-  - action: utter_42
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_diploma_2
+  - action: utter_ask_diploma_2
+  - intent: ask_study_saturday_and_sunday
+  - action: utter_ask_study_saturday_and_sunday
+  - intent: thanks
+  - action: utter_thanks
       
 - story: story_193
   steps:
-  - intent: intent_123
-  - action: utter_123
-  - intent: intent_131
-  - action: utter_131
-  - intent: intent_160
-  - action: utter_160
+  - intent: ask_school_code
+  - action: utter_ask_school_code
+  - intent: ask_2nd_facility
+  - action: utter_ask_2nd_facility
+  - intent: ask_acronyms
+  - action: utter_ask_acronyms
     
 - story: story_194
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_111
-  - action: utter_111
-  - intent: intent_113
-  - action: utter_113
-  - intent: intent_116
-  - action: utter_116
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_floor_admission_score
+  - action: utter_ask_floor_admission_score
+  - intent: ask_area_points
+  - action: utter_ask_area_points
+  - intent: ask_school_targets
+  - action: utter_ask_school_targets
       
 - story: story_195
   steps:
-  - intent: intent_117
-  - action: utter_117
-  - intent: intent_118
-  - action: utter_118
-  - intent: intent_119
-  - action: utter_119
-  - intent: intent_1
-  - action: utter_1
+  - intent: ask_study_credits
+  - action: utter_ask_study_credits
+  - intent: ask_tuition
+  - action: utter_ask_tuition
+  - intent: how_many_months_1_year_study
+  - action: utter_how_many_months_1_year_study
+  - intent: thanks
+  - action: utter_thanks
       
 - story: story_196
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_124
-  - action: utter_124
-  - intent: intent_123
-  - action: utter_123
+  - intent: greet
+  - action: utter_greet
+  - intent: move_to_spkt_hung_yen
+  - action: utter_move_to_spkt_hung_yen
+  - intent: ask_school_code
+  - action: utter_ask_school_code
     
 - story: story_197
   steps:
-  - intent: intent_22
-  - action: utter_22
-  - intent: intent_126
-  - action: utter_126
-  - intent: intent_23
-  - action: utter_23
-  - intent: intent_1
-  - action: utter_1
+  - intent: ask_school_info
+  - action: utter_ask_school_info
+  - intent: ask_4th_facility
+  - action: utter_ask_4th_facility
+  - intent: number_occupations_school_train
+  - action: utter_number_occupations_school_train
+  - intent: thanks
+  - action: utter_thanks
       
 - story: story_198
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_22
-  - action: utter_22
-  - intent: intent_141
-  - action: utter_141
-  - intent: intent_143
-  - action: utter_143
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_school_info
+  - action: utter_ask_school_info
+  - intent: where_facility_admission
+  - action: utter_where_facility_admission
+  - intent: want_to_enter_talent_class_after_1_year_of_study
+  - action: utter_want_to_enter_talent_class_after_1_year_of_study
       
 - story: story_199
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_144
-  - action: utter_144
-  - intent: intent_150
-  - action: utter_150
-  - intent: intent_149
-  - action: utter_149
+  - intent: greet
+  - action: utter_greet
+  - intent: how_many_years_to_study_if_have_high_school_diploma
+  - action: utter_how_many_years_to_study_if_have_high_school_diploma
+  - intent: ask_timeserving
+  - action: utter_ask_timeserving
+  - intent: where_submit_documents
+  - action: utter_where_submit_documents
       
 - story: story_200
   steps:
-  - intent: intent_155
-  - action: utter_155
-  - intent: intent_106
-  - action: utter_106
-  - intent: intent_109
-  - action: utter_109
+  - intent: ask_student_card
+  - action: utter_ask_student_card
+  - intent: ask_dormitory
+  - action: utter_ask_dormitory
+  - intent: ask_clubs
+  - action: utter_ask_clubs
       
 - story: story_201
   steps:
-  - intent: intent_109
-  - action: utter_109
-  - intent: intent_140
-  - action: utter_140
-  - intent: intent_143
-  - action: utter_143
+  - intent: ask_clubs
+  - action: utter_ask_clubs
+  - intent: ask_football_ground
+  - action: utter_ask_football_ground
+  - intent: want_to_enter_talent_class_after_1_year_of_study
+  - action: utter_want_to_enter_talent_class_after_1_year_of_study
         
 - story: story_202
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_106
-  - action: utter_106
-  - intent: intent_115
-  - action: utter_115
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_dormitory
+  - action: utter_ask_dormitory
+  - intent: ask_talent_class
+  - action: utter_ask_talent_class
+  - intent: thanks
+  - action: utter_thanks
       
 - story: story_203
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_110
-  - action: utter_110
-  - intent: intent_112
-  - action: utter_112
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_standard_admission_score
+  - action: utter_ask_standard_admission_score
+  - intent: choose_resgitration_options_when_low_score
+  - action: utter_choose_resgitration_options_when_low_score
+  - intent: thanks
+  - action: utter_thanks
       
 - story: story_204
   steps:
-  - intent: intent_157
-  - action: utter_157
-  - intent: intent_156
-  - action: utter_156
-  - intent: intent_160
-  - action: utter_160
-  - intent: intent_1
-  - action: utter_1
+  - intent: ask_admission_conditions
+  - action: utter_ask_admission_conditions
+  - intent: ask_admission_when_graduating_from_previous_years
+  - action: utter_ask_admission_when_graduating_from_previous_years
+  - intent: ask_acronyms
+  - action: utter_ask_acronyms
+  - intent: thanks
+  - action: utter_thanks
       
 - story: story_205
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_148
-  - action: utter_148
-  - intent: intent_149
-  - action: utter_149
-  - intent: intent_146
-  - action: utter_146
+  - intent: greet
+  - action: utter_greet
+  - intent: lost_military_service_document
+  - action: utter_lost_military_service_document
+  - intent: where_submit_documents
+  - action: utter_where_submit_documents
+  - intent: ask_4x6_photo_mandatory
+  - action: utter_ask_4x6_photo_mandatory
         
 - story: story_206
   steps:
-  - intent: intent_37
-  - action: utter_37
-  - intent: intent_36
-  - action: utter_36
-  - intent: intent_42
-  - action: utter_42
+  - intent: pre_registration_priority
+  - action: utter_pre_registration_priority
+  - intent: ask_late_admission
+  - action: utter_ask_late_admission
+  - intent: ask_study_saturday_and_sunday
+  - action: utter_ask_study_saturday_and_sunday
       
 - story: story_207
   steps:
-  - intent: intent_80
-  - action: utter_80
-  - intent: intent_81
-  - action: utter_81
-  - intent: intent_82
-  - action: utter_82
+  - intent: industrial_electricity_majors
+  - action: utter_industrial_electricity_majors
+  - intent: electronic_majors
+  - action: utter_electronic_majors
+  - intent: automation_majors
+  - action: utter_automation_majors
       
 - story: story_208
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_87
-  - action: utter_87
-  - intent: intent_90
-  - action: utter_90
-  - intent: intent_88
-  - action: utter_88
+  - intent: greet
+  - action: utter_greet
+  - intent: registry_social_science_score_combine
+  - action: utter_registry_social_science_score_combine
+  - intent: where_student_code
+  - action: utter_where_student_code
+  - intent: ask_college_training
+  - action: utter_ask_college_training
         
 - story: story_209
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_93
-  - action: utter_93
-  - intent: intent_97
-  - action: utter_97
-  - intent: intent_12
-  - action: utter_12
+  - intent: greet
+  - action: utter_greet
+  - intent: conditions_direct_admission
+  - action: utter_conditions_direct_admission
+  - intent: ask_admission_procedure
+  - action: utter_ask_admission_procedure
+  - intent: admission_on_11_9
+  - action: utter_admission_on_11_9
         
 - story: story_210
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_12
-  - action: utter_12
-  - intent: intent_17
-  - action: utter_17
-  - intent: intent_16
-  - action: utter_16
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_on_11_9
+  - action: utter_admission_on_11_9
+  - intent: docs_notarize
+  - action: utter_docs_notarize
+  - intent: additional_required
+  - action: utter_additional_required
 
 - story: story_211
   steps:
-  - intent: intent_2
-  - action: utter_2
-  - intent: intent_8
-  - action: utter_8
-  - intent: intent_6
-  - action: utter_6
-  - intent: intent_1
-  - action: utter_1
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_application_time
+  - action: utter_admission_application_time
+  - intent: ask_time_for_results
+  - action: utter_ask_time_for_results
+  - intent: thanks
+  - action: utter_thanks

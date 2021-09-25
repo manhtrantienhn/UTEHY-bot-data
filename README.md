@@ -35,13 +35,13 @@ This repository contains a dataset is colected from [UTEHY website](http://www.u
 ### Data annotation
 * For Rasa-based chatbot systems, data annotation of intents and entities plays an important role in building the Natural Language Understanding (NLU) component where the system needs to understand a given user's intent before predicting the next action. As recommended by Rasa, it is necessary to provide at least 10 examples for each intent to train NLU efficiently. This would be time-consuming when doing manually. We added more examples for intents that have few instances to avoiding data imbalance. It satisfies the requirement of intent examples for training NLU. Finally, we obtain a final dataset with 160 intents, in which each of them has over 10 examples.
 
-* Apart from intent identification, Rasa NLU also requires named entity recognition (NER). This is because the policies learn to predict the next action based on a combination of both intent and entities. We, therefore, annotated entities for input data. In this task, we consider five entity types including location, major, organization, person, and time. The statistics of entity annotation is presented in the following table:
+* Apart from intent identification, Rasa NLU also requires named entity recognition (NER). This is because the policies learn to predict the next action based on a combination of both intent and entities. We, therefore, annotated entities for input data. In this task, we consider five entity types including location, majors, organization, person, and time. The statistics of entity annotation is presented in the following table:
 
 
 NER | train | test | total |
 | --- | --- | --- | --- |
 | Location | 193 | 41 | 234 |
-| Major | 510 | 139 | 649 |
+| Majors | 510 | 139 | 649 |
 | Organization | 903 | 226 | 1,129 |
 | Person | 9 | 2 | 11 |
 | Time | 102 | 39 | 141 |
